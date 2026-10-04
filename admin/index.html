@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>waipu.tv Adapter Konfiguration</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; color: #333; }
+        h1 { font-size: 1.4em; }
+        .notice { background: #fff3cd; border: 1px solid #ffc107; padding: 10px; border-radius: 4px; margin-bottom: 15px; }
+        .config { background: #f5f5f5; border: 1px solid #ddd; padding: 10px; border-radius: 4px; white-space: pre-wrap; word-break: break-word; }
+    </style>
+</head>
+<body>
+    <h1>waipu.tv Adapter Konfiguration</h1>
+    <p>
+        Dies ist die einfache, statische Fallback-Konfigurationsseite. Wenn deine ioBroker-Admin-Oberfläche
+        <code>jsonConfig</code> unterstützt (Admin 5+), wird die richtige Konfigurationsseite aus
+        <code>jsonConfig.json</code> verwendet.
+    </p>
+    <div class="notice">
+        <strong>Hinweis:</strong> Diese Seite ist nur ein Fallback. Bitte verwende nach Möglichkeit die
+        eingebaute jsonConfig-Ansicht des Adapters (Admin 5+). Zugangsdaten bitte nicht in dieser statischen Seite
+        speichern, sondern über die normale Admin-Konfiguration setzen.
+    </div>
+    <p>Die verfügbaren Konfigurationsfelder (aus <code>admin/jsonConfig.json</code>):</p>
+    <div class="config" id="jsonConfig"></div>
+
+    <script>
+        // Versuche, die jsonConfig.json statisch anzuzeigen (rein informativ, kein Admin-5-API).
+        fetch('jsonConfig.json')
+            .then(res => {
+                if (!res.ok) throw new Error('HTTP ' + res.status);
+                return res.text();
+            })
+            .then(text => {
+                try {
+                    document.getElementById('jsonConfig').textContent =
+                        JSON.stringify(JSON.parse(text), null, 2);
+                } catch {
+                    document.getElementById('jsonConfig').textContent = text;
+                }
+            })
+            .catch(err => {
+                document.getElementById('jsonConfig').textContent =
+                    'jsonConfig.json konnte nicht geladen werden: ' + err.message;
+            });
+    </script>
+</body>
+</html>

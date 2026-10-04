@@ -1,0 +1,69 @@
+{
+  "common": {
+    "name": "waipu",
+    "version": "0.1.0",
+    "news": {
+      "0.1.0": {
+        "en": "First public version: channels, EPG and recordings of waipu.tv",
+        "de": "Erste öffentliche Version: Sender, EPG und Aufnahmen von waipu.tv"
+      }
+    },
+    "title": "waipu.tv",
+    "titleLang": {
+      "en": "waipu.tv",
+      "de": "waipu.tv"
+    },
+    "desc": {
+      "en": "Integrates waipu.tv into ioBroker (channels, EPG, recordings)",
+      "de": "Bindet waipu.tv in ioBroker ein (Sender, EPG, Aufnahmen)"
+    },
+    "authors": [
+      "Thorhammer1967"
+    ],
+    "license": "MIT",
+    "type": "multimedia",
+    "platform": "Javascript/Node.js",
+    "mode": "daemon",
+    "compactSupported": false,
+    "connectionType": "cloud",
+    "dataSource": "poll",
+    "materialize": true,
+    "adminUI": {
+      "config": "json"
+    },
+    "dependencies": [
+      {
+        "js-controller": ">=3.3.0"
+      }
+    ],
+    "encryptedNative": [
+      "password",
+      "accessToken",
+      "refreshToken"
+    ]
+  },
+  "native": {
+    "username": "",
+    "password": "",
+    "updateInterval": 15,
+    "deviceId": "",
+    "accessToken": "",
+    "refreshToken": ""
+  },
+  "objects": [],
+  "instanceObjects": [
+    {
+      "_id": "info.connection",
+      "type": "state",
+      "common": {
+        "name": "connection",
+        "type": "boolean",
+        "role": "indicator.connection",
+        "read": true,
+        "write": false,
+        "def": false
+      },
+      "native": {}
+    }
+  ]
+}

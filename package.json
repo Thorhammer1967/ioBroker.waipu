@@ -1,0 +1,39 @@
+{
+  "name": "iobroker.waipu",
+  "version": "0.1.0",
+  "description": "Integrates waipu.tv into ioBroker (channels, EPG, recordings)",
+  "author": {
+    "name": "Thorhammer1967"
+  },
+  "homepage": "https://github.com/Thorhammer1967/iobroker.waipu",
+  "license": "MIT",
+  "keywords": [
+    "ioBroker",
+    "waipu",
+    "tv",
+    "epg"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@iobroker/adapter-core": "^3.2.0",
+    "axios": "^1.7.9"
+  },
+  "devDependencies": {
+    "@iobroker/testing": "^5.0.0",
+    "@types/node": "^22.10.0",
+    "eslint": "^9.17.0"
+  },
+  "main": "main.js",
+  "scripts": {
+    "test": "node node_modules/eslint/bin/eslint.js --config .eslintrc.json ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thorhammer1967/iobroker.waipu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Thorhammer1967/iobroker.waipu/issues"
+  }
+}
