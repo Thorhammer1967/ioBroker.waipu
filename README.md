@@ -6,6 +6,8 @@ Integrates **waipu.tv** into ioBroker: channel list, EPG (TV guide), currently r
 
 > **Note:** This adapter is not authorized by waipu.tv. It uses an unofficial API whose endpoints can change at any time.
 
+**Manufacturer / service:** [https://www.waipu.tv](https://www.waipu.tv)
+
 ## Origin
 
 The API knowledge is based on the open-source work on **ha-waipu** (Home Assistant integration by GB-1972). This adapter is a new, independent implementation for ioBroker — with its own structure, error handling and state management. Thanks to the ha-waipu groundwork! 🙏

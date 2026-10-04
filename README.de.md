@@ -6,6 +6,8 @@ Integriert **waipu.tv** in ioBroker: Senderliste, EPG (Programmführer), das akt
 
 > **Hinweis:** Dieser Adapter ist nicht von waipu.tv autorisiert. Er nutzt eine inoffizielle API, deren Endpunkte sich jederzeit ändern können.
 
+**Hersteller / Dienst:** [https://www.waipu.tv](https://www.waipu.tv)
+
 ## Herkunft
 
 Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu** (Home-Assistant-Integration von GB-1972). Dieser Adapter ist eine eigene, für ioBroker neu gebaute Umsetzung — mit eigener Struktur, Fehlerbehandlung und Datenpunkten. Danke an die ha-waipu-Vorarbeit! 🙏

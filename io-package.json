@@ -40,6 +40,16 @@
       "password",
       "accessToken",
       "refreshToken"
+    ],
+    "protectedNative": [
+      "password",
+      "accessToken",
+      "refreshToken"
+    ],
+    "globalDependencies": [
+      {
+        "admin": ">=4.0.9"
+      }
     ]
   },
   "native": {
