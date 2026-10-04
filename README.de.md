@@ -69,6 +69,8 @@ Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu*
 - Trusted publishing cleaned (npm-token removed).
 ### 0.1.7
 - Debug step removed.
+### 0.1.12
+- Änderungseintrag für 0.1.11 ergänzt.
 ### 0.1.11
 - README-Änderungsliste vervollständigt.
 ### 0.1.10

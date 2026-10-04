@@ -1,60 +1,8 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.12",
+    "version": "0.1.13",
     "news": {
-      "0.1.0": {
-        "en": "First public version: channels, EPG and recordings of waipu.tv",
-        "de": "Erste öffentliche Version: Sender, EPG und Aufnahmen von waipu.tv",
-        "ru": "Первая публичная версия: каналы, EPG и записи waipu.tv",
-        "pt": "Primeira versão pública: canais, EPG e gravações da waipu.tv",
-        "nl": "Eerste publieke versie: zenders, EPG en opnames van waipu.tv",
-        "fr": "Première version publique : chaînes, EPG et enregistrements waipu.tv",
-        "it": "Prima versione pubblica: canali, EPG e registrazioni di waipu.tv",
-        "es": "Primera versión pública: canales, EPG y grabaciones de waipu.tv",
-        "pl": "Pierwsza publiczna wersja: kanały, EPG i nagrania waipu.tv",
-        "uk": "Перша публічна версія: канали, EPG та записи waipu.tv",
-        "zh-cn": "首个公开版本：waipu.tv 的频道、EPG 和录像"
-      },
-      "0.1.2": {
-        "en": "Release automation enabled (deploy via trusted publishing).",
-        "de": "Release-Automatisierung aktiviert (vertrauenswürdiges Veröffentlichen).",
-        "ru": "Автоматизация релизов включена (trusted publishing).",
-        "pt": "Automação de release ativada (publicação confiável).",
-        "nl": "Release-automatisering ingeschakeld (trusted publishing).",
-        "fr": "Automatisation des versions activée (publication de confiance).",
-        "it": "Automazione release attivata (publishing affidabile).",
-        "es": "Automatización de releases activada (publicación de confianza).",
-        "pl": "Automatyzacja wydań włączona (zaufane publikowanie).",
-        "uk": "Автоматизація релізів увімкнута (trusted publishing).",
-        "zh-cn": "发布自动化已启用（可信发布）。"
-      },
-      "0.1.4": {
-        "en": "Release automation fixed; version bump (deploy via NPM_TOKEN).",
-        "de": "Release-Automatisierung repariert; Versionspflegung (Deploy via NPM_TOKEN).",
-        "ru": "Автоматизация релиза исправлена; обновление версии (публикация через NPM_TOKEN).",
-        "pt": "Automação de release corrigida; atualização de versão (deploy via NPM_TOKEN).",
-        "nl": "Release-automatisering hersteld; versie-update (deploy via NPM_TOKEN).",
-        "fr": "Automatisation de release corrigée ; mise à jour de version (déploiement via NPM_TOKEN).",
-        "it": "Automazione di release corretta; aggiornamento versione (deploy via NPM_TOKEN).",
-        "es": "Automatización de release corregida; actualización de versión (deploy vía NPM_TOKEN).",
-        "pl": "Poprawiono automatyzację wydania; aktualizacja wersji (deploy przez NPM_TOKEN).",
-        "uk": "Виправлено автоматизацію релізів; оновлення версії (публікація через NPM_TOKEN).",
-        "zh-cn": "修复发布自动化；版本提升（通过 NPM_TOKEN 部署）。"
-      },
-      "0.1.5": {
-        "en": "Fixed trusted publishing (npm-token removed); release signed with provenance.",
-        "de": "Vertrauenswürdiges Veröffentlichen korrigiert (npm-token entfernt); Release mit Prüfsignatur versehen.",
-        "ru": "Исправлена доверенная публикация (npm-token удалён); релиз подписан provenance.",
-        "pt": "Publicação confiável corrigida (npm-token removido); versão assinada com provenance.",
-        "nl": "Vertrouwd publiceren hersteld (npm-token verwijderd); release ondertekend met provenance.",
-        "fr": "Publication de confiance corrigée (npm-token supprimé) ; version signée avec provenance.",
-        "it": "Pubblicazione attendibile corretta (npm-token rimosso); release firmata con provenance.",
-        "es": "Publicación confiable corregida (npm-token eliminado); versión firmada con provenance.",
-        "pl": "Poprawiono zaufane publikowanie (usunięto npm-token); wydanie podpisane provenance.",
-        "uk": "Виправлено довірений публікування (npm-token вилучено); реліз підписано provenance.",
-        "zh-cn": "修复可信发布（已移除 npm-token）；发布版本已添加出处签名。"
-      },
       "0.1.9": {
         "en": "Publish via npm-token restored in CI.",
         "de": "Veröffentlichung via npm-token in der CI wiederhergestellt.",
@@ -106,6 +54,19 @@
         "pl": "Dodano wpis changelog dla 0.1.11.",
         "uk": "Додано запис змін для 0.1.11.",
         "zh-cn": "已添加 0.1.11 的更新日志条目。"
+      },
+      "0.1.13": {
+        "en": "News pruned to published versions only.",
+        "de": "News-Einträge nur auf veröffentlichte Versionen beschränkt.",
+        "ru": "Записи news ограничены только опубликованными версиями.",
+        "pt": "Entradas de news limitadas às versões publicadas.",
+        "nl": "Nieuwsitems beperkt tot gepubliceerde versies.",
+        "fr": "Entrées news limitées aux versions publiées.",
+        "it": "Voci news limitate alle versioni pubblicate.",
+        "es": "Entradas de news limitadas a las versiones publicadas.",
+        "pl": "Wpisy news ograniczone do opublikowanych wersji.",
+        "uk": "Записи news обмежено опублікованими версіями.",
+        "zh-cn": "news 条目仅限于已发布的版本。"
       }
     },
     "titleLang": {
