@@ -65,34 +65,32 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 
 ## Changelog
 
-### 0.1.6
-- Trusted publishing cleaned (npm-token removed).
-### 0.1.7
-- Debug step removed.
+### 0.1.13
+- News entries limited to published npm versions.
+
 ### 0.1.12
 - Changelog entry for 0.1.11 added.
+
 ### 0.1.11
 - README changelog completed.
+
 ### 0.1.10
 - News entries aligned to published npm versions.
+
 ### 0.1.9
 - Publish via npm-token restored in CI.
-### 0.1.8
-- Publish via npm-token in CI; provenance signed automatically.
+
 ### 0.1.5
-- Fixed trusted publishing (removed npm-token); release signed with provenance.
+- Trusted publishing configured; release signed with provenance.
 
 ### 0.1.4
-- Release automation test (npm-token publish).
+- Release automation enabled (npm-token publish).
+
 ### 0.1.2
 - Release automation enabled; published from CI with trusted publishing.
-### 0.1.2
-- Release-Automatisierung aktiviert; Veröffentlichung aus der CI mit Prüfsignatur.
 
 ### 0.1.0
 - First public version: channel list, EPG, current program, cloud recordings, login + token rotation.
-
-Older entries: [CHANGELOG_OLD.md](CHANGELOG_OLD.md)
 
 ## License
 

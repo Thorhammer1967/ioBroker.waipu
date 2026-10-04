@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.13",
+    "version": "0.1.14",
     "news": {
       "0.1.9": {
         "en": "Publish via npm-token restored in CI.",
@@ -67,6 +67,45 @@
         "pl": "Wpisy news ograniczone do opublikowanych wersji.",
         "uk": "Записи news обмежено опублікованими версіями.",
         "zh-cn": "news 条目仅限于已发布的版本。"
+      },
+      "0.1.4": {
+        "en": "Release automation enabled (npm-token publish).",
+        "de": "Release-Automatisierung aktiviert (Publish via npm-token).",
+        "ru": "Автоматизация релизов включена (publish по npm-token).",
+        "pt": "Automação de release ativada (publicação via npm-token).",
+        "nl": "Release-automatisering ingeschakeld (publiceren via npm-token).",
+        "fr": "Automatisation des versions activée (publication via npm-token).",
+        "it": "Automazione release attivata (pubblicazione tramite npm-token).",
+        "es": "Automatización de releases activada (publicación vía npm-token).",
+        "pl": "Automatyzacja wydań włączona (publikacja przez npm-token).",
+        "uk": "Автоматизацію релізів увімкнено (публікація через npm-token).",
+        "zh-cn": "已启用发布自动化（通过 npm-token 发布）。"
+      },
+      "0.1.5": {
+        "en": "Trusted publishing configured; release signed with provenance.",
+        "de": "Vertrauenswürdiges Veröffentlichen konfiguriert; Release mit Prüfsignatur.",
+        "ru": "Настроена доверенная публикация; релиз подписан provenance.",
+        "pt": "Publicação confiável configurada; versão assinada com provenance.",
+        "nl": "Vertrouwd publiceren geconfigureerd; release ondertekend met provenance.",
+        "fr": "Publication de confiance configurée ; version signée avec provenance.",
+        "it": "Pubblicazione attendibile configurata; release firmata con provenance.",
+        "es": "Publicación confiable configurada; versión firmada con provenance.",
+        "pl": "Skonfigurowano zaufane publikowanie; wydanie podpisane provenance.",
+        "uk": "Налаштовано довірене публікування; реліз підписано provenance.",
+        "zh-cn": "已配置可信发布；发布已添加出处签名。"
+      },
+      "0.1.14": {
+        "en": "Changelog re-sorted, news pruned to npm versions.",
+        "de": "Changelog neu sortiert, News auf npm-Versionen begrenzt.",
+        "ru": "Changelog пересортирован, news ограничены версиями npm.",
+        "pt": "Changelog reordenado, news limitadas às versões npm.",
+        "nl": "Changelog hogeordend, news beperkt tot npm-versies.",
+        "fr": "Changelog réorganisé, news limitées aux versions npm.",
+        "it": "Changelog riordinato, news limitate alle versioni npm.",
+        "es": "Changelog reordenado, news limitadas a las versiones npm.",
+        "pl": "Changelog posortowany, news ograniczone do wersji npm.",
+        "uk": "Changelog перевпорядковано, news обмежено версіями npm.",
+        "zh-cn": "更新日志已重新排序，news 限于 npm 版本。"
       }
     },
     "titleLang": {
