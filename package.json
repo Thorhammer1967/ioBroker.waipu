@@ -1,39 +1,44 @@
 {
-  "name": "iobroker.waipu",
-  "version": "0.1.0",
-  "description": "Integrates waipu.tv into ioBroker (channels, EPG, recordings)",
-  "author": {
-    "name": "Thorhammer1967"
-  },
-  "homepage": "https://github.com/Thorhammer1967/iobroker.waipu",
-  "license": "MIT",
-  "keywords": [
-    "ioBroker",
-    "waipu",
-    "tv",
-    "epg"
-  ],
-  "engines": {
-    "node": ">=18"
-  },
-  "dependencies": {
-    "@iobroker/adapter-core": "^3.2.0",
-    "axios": "^1.7.9"
-  },
-  "devDependencies": {
-    "@iobroker/testing": "^5.0.0",
-    "@types/node": "^22.10.0",
-    "eslint": "^9.17.0"
-  },
-  "main": "main.js",
-  "scripts": {
-    "test": "node node_modules/eslint/bin/eslint.js --config .eslintrc.json ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Thorhammer1967/iobroker.waipu.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Thorhammer1967/iobroker.waipu/issues"
-  }
+    "name": "iobroker.waipu",
+    "version": "0.1.0",
+    "description": "Integrates waipu.tv into ioBroker (channels, EPG, recordings)",
+    "author": {
+        "name": "Thorhammer1967"
+    },
+    "homepage": "https://github.com/Thorhammer1967/ioBroker.waipu",
+    "license": "MIT",
+    "keywords": [
+        "ioBroker",
+        "waipu",
+        "tv",
+        "epg"
+    ],
+    "engines": {
+        "node": ">=18"
+    },
+    "dependencies": {
+        "@iobroker/adapter-core": "^3.2.0",
+        "axios": "^1.7.9"
+    },
+    "devDependencies": {
+        "@iobroker/testing": "^5.0.0",
+        "@types/node": "^22.10.0",
+        "eslint": "^8.57.0",
+        "mocha": "^10.8.2"
+    },
+    "main": "main.js",
+    "scripts": {
+        "lint": "eslint .",
+        "test:eslint": "eslint .",
+        "test:package": "mocha --config test/mocharc.custom.json test/package --exit",
+        "test:integration": "mocha --config test/mocharc.custom.json test/integration --exit",
+        "test": "npm run test:eslint && npm run test:package && npm run test:integration"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Thorhammer1967/ioBroker.waipu.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Thorhammer1967/ioBroker.waipu/issues"
+    }
 }

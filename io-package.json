@@ -50,7 +50,10 @@
       {
         "admin": ">=4.0.9"
       }
-    ]
+    ],
+    "main": "main.js",
+    "icon": "admin/waipu.png",
+    "extIcon": "https://raw.githubusercontent.com/Thorhammer1967/ioBroker.waipu/main/admin/waipu.png"
   },
   "native": {
     "username": "",
