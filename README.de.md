@@ -65,8 +65,8 @@ Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu*
 
 ## Changelog
 
-### 0.1.32
-- States werden beim Start neu angelegt (setObject), damit read/write-Flags und Rollen auch auf bestehenden Installationen korrigiert werden.
+### 0.1.33
+- Objektstruktur vollständig: Channel-Container für info und Aufnahmen, Aufräumen veralteter Aufnahmen.
 ### 0.1.28
 - Checker-Fixes: vollständige News-Übersetzungen, Changelog-Link, Trusted Publishing ohne Token.
 ### 0.1.27

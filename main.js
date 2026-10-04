@@ -95,6 +95,13 @@ class Waipu extends utils.Adapter {
 
     await this.setStateAsync("info.connection", false, true);
 
+    // "info"-Ordner anlegen (Checker verlangt die Zwischenebene für info.connection)
+    await this.setObjectNotExistsAsync("info", {
+      type: "channel",
+      common: { name: "Informationen" },
+      native: {},
+    });
+
     // --- Login / Token sicherstellen ---
     let loggedIn = false;
     try {
@@ -348,6 +355,13 @@ class Waipu extends utils.Adapter {
         const objId = this._escapeId(rid);
         const base = `recordings.${objId}`;
 
+        // Channel-Eltern-Ebene für jede Aufnahme (Checker verlangt die Zwischenebene)
+        await this.setObjectAsync(`${base}`, {
+          type: "channel",
+          common: { name: rec.title || `Aufnahme ${rid}` },
+          native: { recordingId: rid },
+        });
+
         await this.setObjectAsync(`${base}.title`, {
           type: "state",
           common: { name: "Titel", type: "string", role: "text", read: true, write: false },
@@ -392,6 +406,27 @@ class Waipu extends utils.Adapter {
         await this.setStateAsync(`${base}.recordingStartTime`, rec.recordingStartTime || "", true);
         await this.setStateAsync(`${base}.durationSeconds`, Number(rec.durationSeconds) || 0, true);
         await this.setStateAsync(`${base}.epgStartTime`, rec.epgStartTime || "", true);
+      }
+
+      // Alte, nicht mehr vorhandene Aufnahme-Objekte entfernen (verwaiste States)
+      const currentIds = new Set(recordings.map((r) => this._escapeId(String(r.recordingId || r.id))));
+      const allObjs = await this.getAdapterObjectsAsync();
+      const stale = [];
+      for (const id of Object.keys(allObjs || {})) {
+        // Keys kommen mit Namespace-Präfix (z.B. "waipu.0.recordings.123.title")
+        const m = id.match(/recordings\.([^.]+)/);
+        if (m && m[1] !== "list" && m[1] !== "count" && !currentIds.has(m[1])) {
+          stale.push(id);
+        }
+      }
+      for (const id of stale) {
+        // getAdapterObjectsAsync liefert IDs MIT Namespace-Präfix ("waipu.0.…");
+        // delObjectAsync erwartet eine ID OHNE Präfix.
+        const rel = id.startsWith(`${this.namespace}.`) ? id.slice(this.namespace.length + 1) : id;
+        await this.delObjectAsync(rel);
+      }
+      if (stale.length) {
+        this.log.info(`${stale.length} veraltete Aufnahme-Objekte entfernt`);
       }
 
       this.log.debug(`Recordings aktualisiert: ${recordings.length}`);

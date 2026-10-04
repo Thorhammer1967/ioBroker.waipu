@@ -1,20 +1,20 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.32",
+    "version": "0.1.33",
     "news": {
-      "0.1.32": {
-        "en": "States now re-created on start (setObject) so read/write flags and roles are corrected on existing installations.",
-        "de": "States werden beim Start neu angelegt (setObject), damit read/write-Flags und Rollen auch auf bestehenden Installationen korrigiert werden.",
-        "ru": "Состояния теперь пересоздаются при старте (setObject), чтобы флаги read/write и роли исправлялись и на существующих установках.",
-        "pt": "Os estados agora são recriados no arranque (setObject) para que os sinalizadores read/write e as funções sejam corrigidos também nas instalações existentes.",
-        "nl": "States worden nu bij het starten opnieuw aangemaakt (setObject), zodat read/write-vlaggen en rollen ook op bestaande installaties worden gecorrigeerd.",
-        "fr": "Les états sont désormais recréés au démarrage (setObject) afin que les indicateurs read/write et les rôles soient corrigés aussi sur les installations existantes.",
-        "it": "Gli stati vengono ora ricreati all'avvio (setObject) affinché i flag read/write e i ruoli vengano corretti anche sulle installazioni esistenti.",
-        "es": "Los estados ahora se recrean al arrancar (setObject) para que los indicadores read/write y los roles se corrijan también en las instalaciones existentes.",
-        "pl": "Stany są teraz odtwarzane przy starcie (setObject), aby flagi read/write i role były korygowane również na istniejących instalacjach.",
-        "uk": "Стан тепер перестворюється під час запуску (setObject), щоб прапорці read/write та ролі виправлялися й на наявних інсталяціях.",
-        "zh-cn": "状态现在在启动时重建 (setObject)，以便读写标志和角色也能在现有安装上得到纠正。"
+      "0.1.33": {
+        "en": "Object structure complete: channel containers for info and recordings, stale recording cleanup.",
+        "de": "Objektstruktur vollständig: Channel-Container für info und Aufnahmen, Aufräumen veralteter Aufnahmen.",
+        "ru": "Полная структура объектов: контейнеры каналов для info и записей, очистка устаревших записей.",
+        "pt": "Estrutura de objetos completa: contentores de canais para info e gravações, limpeza de gravações obsoletas.",
+        "nl": "Volledige objectstructuur: kanaalcontainers voor info en opnames, opschonen van verouderde opnames.",
+        "fr": "Structure d'objets complète : conteneurs de canaux pour info et enregistrements, nettoyage des enregistrements obsolètes.",
+        "it": "Struttura oggetti completa: contenitori di canali per info e registrazioni, pulizia delle registrazioni obsolete.",
+        "es": "Estructura de objetos completa: contenedores de canales para info y grabaciones, limpieza de grabaciones obsoletas.",
+        "pl": "Kompletna struktura obiektów: kontenery kanałów dla info i nagrań, czyszczenie nieaktualnych nagrań.",
+        "uk": "Повна структура об'єктів: контейнери каналів для info і записів, очищення застарілих записів.",
+        "zh-cn": "完整的对象结构：info 和录像的通道容器，清理过时录像。"
       },
       "0.1.28": {
         "en": "Checker fixes: full news translations, changelog link and token-free trusted publishing.",

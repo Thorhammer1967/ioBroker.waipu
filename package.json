@@ -1,6 +1,6 @@
 {
   "name": "iobroker.waipu",
-  "version": "0.1.32",
+  "version": "0.1.33",
   "description": "Integrates waipu.tv into ioBroker (channels, EPG, recordings)",
   "author": {
     "name": "Thorhammer1967"
