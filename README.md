@@ -65,6 +65,10 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 
 ## Changelog
 
+### 0.1.18
+- id-token write permission added for trusted publishing.
+### 0.1.17
+- News trimmed to exactly 7, changelog 0.1.16 added.
 ### 0.1.16
 - Trusted publishing enabled (npm-token removed).
 ### 0.1.15

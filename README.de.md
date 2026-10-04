@@ -65,6 +65,10 @@ Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu*
 
 ## Changelog
 
+### 0.1.18
+- id-token-Schreibrecht für Trusted Publishing ergänzt.
+### 0.1.17
+- News exakt auf 7 gekürzt, Changelog 0.1.16 ergänzt.
 ### 0.1.16
 - Trusted Publishing aktiviert (npm-token entfernt).
 ### 0.1.15

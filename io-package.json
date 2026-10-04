@@ -1,21 +1,8 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.16",
+    "version": "0.1.18",
     "news": {
-      "0.1.10": {
-        "en": "News entries cleaned to match published npm versions.",
-        "de": "News-Einträge an veröffentlichte npm-Versionen angeglichen.",
-        "ru": "Записи news приведены в соответствие с опубликованными версиями npm.",
-        "pt": "Entradas de news alinhadas às versões npm publicadas.",
-        "nl": "Nieuwsitems afgestemd op gepubliceerde npm-versies.",
-        "fr": "Entrées news alignées sur les versions npm publiées.",
-        "it": "Voci news allineate alle versioni npm pubblicate.",
-        "es": "Entradas de news alineadas con las versiones npm publicadas.",
-        "pl": "Wpisy news dostosowane do opublikowanych wersji npm.",
-        "uk": "Записи news узгоджено з опублікованими версіями npm.",
-        "zh-cn": "news 条目与已发布的 npm 版本保持一致。"
-      },
       "0.1.11": {
         "en": "README changelog completed.",
         "de": "README-Änderungsliste vervollständigt.",
@@ -93,6 +80,19 @@
         "pl": "Zaufane publikowanie włączone (npm-token usunięty).",
         "uk": "Увімкнено довірене публікування (npm-token вилучено).",
         "zh-cn": "已启用可信发布（已移除 npm-token）。"
+      },
+      "0.1.18": {
+        "en": "id-token write permission added for trusted publishing.",
+        "de": "id-token-Schreibrecht für Trusted Publishing ergänzt.",
+        "ru": "Добавлено право id-token write для доверенной публикации.",
+        "pt": "Permissão id-token write adicionada para publicação confiável.",
+        "nl": "id-token schrijfrechten toegevoegd voor vertrouwd publiceren.",
+        "fr": "Autorisation id-token write ajoutée pour la publication de confiance.",
+        "it": "Aggiunto permesso id-token write per la pubblicazione attendibile.",
+        "es": "Permiso id-token write agregado para la publicación confiable.",
+        "pl": "Dodano uprawnienie id-token write dla zaufanego publikowania.",
+        "uk": "Додано право id-token write для довіреного публікування.",
+        "zh-cn": "为可信发布添加了 id-token 写权限。"
       }
     },
     "titleLang": {
