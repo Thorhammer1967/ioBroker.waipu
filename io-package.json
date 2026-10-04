@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "news": {
       "0.1.0": {
         "en": "First public version: channels, EPG and recordings of waipu.tv",
@@ -28,6 +28,19 @@
         "pl": "Automatyzacja wydań włączona (zaufane publikowanie).",
         "uk": "Автоматизація релізів увімкнута (trusted publishing).",
         "zh-cn": "发布自动化已启用（可信发布）。"
+      },
+      "0.1.4": {
+        "en": "Release automation fixed; version bump (deploy via NPM_TOKEN).",
+        "de": "Release-Automatisierung repariert; Versionspflegung (Deploy via NPM_TOKEN).",
+        "ru": "Автоматизация релиза исправлена; обновление версии (публикация через NPM_TOKEN).",
+        "pt": "Automação de release corrigida; atualização de versão (deploy via NPM_TOKEN).",
+        "nl": "Release-automatisering hersteld; versie-update (deploy via NPM_TOKEN).",
+        "fr": "Automatisation de release corrigée ; mise à jour de version (déploiement via NPM_TOKEN).",
+        "it": "Automazione di release corretta; aggiornamento versione (deploy via NPM_TOKEN).",
+        "es": "Automatización de release corregida; actualización de versión (deploy vía NPM_TOKEN).",
+        "pl": "Poprawiono automatyzację wydania; aktualizacja wersji (deploy przez NPM_TOKEN).",
+        "uk": "Виправлено автоматизацію релізів; оновлення версії (публікація через NPM_TOKEN).",
+        "zh-cn": "修复发布自动化；版本提升（通过 NPM_TOKEN 部署）。"
       }
     },
     "titleLang": {
