@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.19",
+    "version": "0.1.20",
     "news": {
       "0.1.12": {
         "en": "Changelog entry for 0.1.11 added.",
@@ -55,32 +55,6 @@
         "uk": "Додано запис 0.1.14, news обмежено 7.",
         "zh-cn": "已添加 0.1.14 条目，news 限于 7 条。"
       },
-      "0.1.16": {
-        "en": "Trusted publishing enabled (npm-token removed).",
-        "de": "Trusted Publishing aktiviert (npm-token entfernt).",
-        "ru": "Включено доверенное публикование (npm-token удален).",
-        "pt": "Publicação confiável ativada (npm-token removido).",
-        "nl": "Vertrouwd publiceren ingeschakeld (npm-token verwijderd).",
-        "fr": "Publication de confiance activée (npm-token supprimé).",
-        "it": "Pubblicazione attendibile abilitata (npm-token rimosso).",
-        "es": "Publicación confiable activada (npm-token eliminado).",
-        "pl": "Zaufane publikowanie włączone (npm-token usunięty).",
-        "uk": "Увімкнено довірене публікування (npm-token вилучено).",
-        "zh-cn": "已启用可信发布（已移除 npm-token）。"
-      },
-      "0.1.18": {
-        "en": "id-token write permission added for trusted publishing.",
-        "de": "id-token-Schreibrecht für Trusted Publishing ergänzt.",
-        "ru": "Добавлено право id-token write для доверенной публикации.",
-        "pt": "Permissão id-token write adicionada para publicação confiável.",
-        "nl": "id-token schrijfrechten toegevoegd voor vertrouwd publiceren.",
-        "fr": "Autorisation id-token write ajoutée pour la publication de confiance.",
-        "it": "Aggiunto permesso id-token write per la pubblicazione attendibile.",
-        "es": "Permiso id-token write agregado para la publicación confiable.",
-        "pl": "Dodano uprawnienie id-token write dla zaufanego publikowania.",
-        "uk": "Додано право id-token write для довіреного публікування.",
-        "zh-cn": "为可信发布添加了 id-token 写权限。"
-      },
       "0.1.19": {
         "en": "Reliable publish via npm-token re-enabled.",
         "de": "Zuverlässige Veröffentlichung via npm-token wieder aktiviert.",
@@ -93,6 +67,19 @@
         "pl": "Niezawodna publikacja przez npm-token ponownie włączona.",
         "uk": "Надійну публікацію через npm-token знову увімкнено.",
         "zh-cn": "重新启用了通过 npm-token 的可靠发布。"
+      },
+      "0.1.20": {
+        "en": "News pruned to NPM reality (E2004).",
+        "de": "News-Einträge an npm-Realität angeglichen (E2004).",
+        "ru": "Новости приведены в соответствие с реальностью npm (E2004).",
+        "pt": "News alinhadas à realidade do npm (E2004).",
+        "nl": "Nieuws afgestemd op npm-realiteit (E2004).",
+        "fr": "Nouvelles alignées sur la réalité npm (E2004).",
+        "it": "Notizie allineate alla realtà npm (E2004).",
+        "es": "News alineadas a la realidad de npm (E2004).",
+        "pl": "News dostosowane do rzeczywistości npm (E2004).",
+        "uk": "News узгоджено з npm-реальністю (E2004).",
+        "zh-cn": "news 已调整为 npm 的实际情况 (E2004)。"
       }
     },
     "titleLang": {

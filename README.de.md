@@ -67,27 +67,9 @@ Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu*
 
 ### 0.1.19
 - Zuverlässige Veröffentlichung via npm-token wieder aktiviert.
-### 0.1.18
-- id-token-Schreibrecht für Trusted Publishing ergänzt.
-### 0.1.17
-- News exakt auf 7 gekürzt, Changelog 0.1.16 ergänzt.
-### 0.1.16
-- Trusted Publishing aktiviert (npm-token entfernt).
+
 ### 0.1.15
 - Changelog 0.1.14 ergänzt, News auf 7 begrenzt.
-### 0.1.14
-- Changelog neu sortiert, News auf npm-Versionen begrenzt.
-### 0.1.13
-- News-Einträge auf veröffentlichte npm-Versionen beschränkt.
-
-### 0.1.12
-- Änderungseintrag für 0.1.11 ergänzt.
-
-### 0.1.11
-- README-Änderungsliste vervollständigt.
-
-### 0.1.10
-- News-Einträge an veröffentlichte npm-Versionen angeglichen.
 
 ### 0.1.9
 - Veröffentlichung via npm-token in der CI wiederhergestellt.
