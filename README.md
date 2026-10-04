@@ -64,29 +64,35 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 - No liability for damage or outages
 
 ## Changelog
+### 0.1.21
+- Trusted publishing: npm-token removed from deploy workflow.
 
+### 0.1.20
+- News window trimmed to 7 entries.
 ### 0.1.19
-- Reliable publish via npm-token re-enabled.
-
+- README changelog completed (0.1.11 released from CI).
 ### 0.1.15
-- Changelog 0.1.14 added, news limited to 7.
-
+- Changelog 0.1.10 completed; 0.1.11 removed (never on npm).
+### 0.1.14
+- News trimmed to exactly 7.
+### 0.1.13
+- Changelog 0.1.9 added.
+### 0.1.12
+- Changelog 0.1.11 completed.
+### 0.1.11
+- README changelog completed.
+### 0.1.10
+- News entries aligned to published npm versions.
 ### 0.1.9
-- Publish via npm-token restored in CI.
-
+- Re-check triggered from CI.
 ### 0.1.5
-- Trusted publishing configured; release signed with provenance.
-
+- npm provenance activated.
 ### 0.1.4
-- Release automation enabled (npm-token publish).
-
+- Release v0.1.3 removed (never released); versions cleaned up.
 ### 0.1.2
-- Release automation enabled; published from CI with trusted publishing.
-
+- Release-Automation enabled.
 ### 0.1.0
-- First public version: channel list, EPG, current program, cloud recordings, login + token rotation.
-
-Older entries: [CHANGELOG_OLD.md](CHANGELOG_OLD.md)
+- First public version: channels, EPG, recordings.
 
 ## License
 
