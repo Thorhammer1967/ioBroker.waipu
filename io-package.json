@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.21",
+    "version": "0.1.22",
     "news": {
       "0.1.21": {
         "en": "Trusted publishing: npm-token removed from deploy workflow.",
@@ -93,6 +93,19 @@
         "pl": "Change log zakończony.",
         "uk": "Історію змін доповнено.",
         "zh-cn": "更新日志已完成。"
+      },
+      "0.1.22": {
+        "en": "Test release for trusted publishing pipeline.",
+        "de": "Test-Release für die Trusted-Publishing-Pipeline.",
+        "ru": "Тестовый релиз для конвейера доверенной публикации.",
+        "pt": "Versão de teste para o pipeline de publicação confiável.",
+        "nl": "Testrelease voor de vertrouwde publicatiepijplijn.",
+        "fr": "Version de test pour le pipeline de publication de confiance.",
+        "it": "Release di prova per la pipeline di pubblicazione attendibile.",
+        "es": "Versión de prueba para la tubería de publicación confiable.",
+        "pl": "Wydanie testowe dla potoku zaufanego publikowania.",
+        "uk": "Тестовий реліз для конвеєра довіреного публікування.",
+        "zh-cn": "可信发布管道的测试版本。"
       }
     },
     "titleLang": {

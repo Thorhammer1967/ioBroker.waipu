@@ -70,6 +70,8 @@ Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu*
 ### 0.1.20
 - News-Fenster auf 7 Einträge gekürzt.
 
+### 0.1.22
+- Test-Release für die Trusted-Publishing-Pipeline.
 ### 0.1.19
 - README-Änderungsliste vervollständigt (0.1.11 aus der CI).
 

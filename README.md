@@ -69,6 +69,8 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 
 ### 0.1.20
 - News window trimmed to 7 entries.
+### 0.1.22
+- Test release for trusted publishing pipeline.
 ### 0.1.19
 - README changelog completed (0.1.11 released from CI).
 ### 0.1.15
