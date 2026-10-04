@@ -3,19 +3,6 @@
     "name": "waipu",
     "version": "0.1.16",
     "news": {
-      "0.1.9": {
-        "en": "Publish via npm-token restored in CI.",
-        "de": "Veröffentlichung via npm-token in der CI wiederhergestellt.",
-        "ru": "Публикация через npm-token восстановлена в CI.",
-        "pt": "Publicação via npm-token restaurada na CI.",
-        "nl": "Publicatie via npm-token hersteld in CI.",
-        "fr": "Publication via npm-token restaurée dans la CI.",
-        "it": "Pubblicazione tramite npm-token ripristinata nella CI.",
-        "es": "Publicación mediante npm-token restaurada en la CI.",
-        "pl": "Publikacja przez npm-token przywrócona w CI.",
-        "uk": "Публікацію через npm-token відновлено в CI.",
-        "zh-cn": "CI 中已恢复通过 npm-token 进行发布。"
-      },
       "0.1.10": {
         "en": "News entries cleaned to match published npm versions.",
         "de": "News-Einträge an veröffentlichte npm-Versionen angeglichen.",

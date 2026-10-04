@@ -65,6 +65,8 @@ Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu*
 
 ## Changelog
 
+### 0.1.16
+- Trusted Publishing aktiviert (npm-token entfernt).
 ### 0.1.15
 - Changelog 0.1.14 ergänzt, News auf 7 begrenzt.
 ### 0.1.14

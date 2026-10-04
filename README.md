@@ -65,6 +65,8 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 
 ## Changelog
 
+### 0.1.16
+- Trusted publishing enabled (npm-token removed).
 ### 0.1.15
 - Changelog 0.1.14 added, news limited to 7.
 ### 0.1.14
