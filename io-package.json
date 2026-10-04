@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.11",
+    "version": "0.1.12",
     "news": {
       "0.1.0": {
         "en": "First public version: channels, EPG and recordings of waipu.tv",
@@ -93,6 +93,19 @@
         "pl": "Dopełniono README change log.",
         "uk": "Історію змін README доповнено.",
         "zh-cn": "README 更新日志已完成。"
+      },
+      "0.1.12": {
+        "en": "Changelog entry for 0.1.11 added.",
+        "de": "Änderungseintrag für 0.1.11 ergänzt.",
+        "ru": "Добавлена запись изменений для 0.1.11.",
+        "pt": "Entrada de changelog para 0.1.11 adicionada.",
+        "nl": "Changelogitem voor 0.1.11 toegevoegd.",
+        "fr": "Entrée de changelog pour 0.1.11 ajoutée.",
+        "it": "Aggiunta voce di changelog per 0.1.11.",
+        "es": "Entrada de changelog para 0.1.11 agregada.",
+        "pl": "Dodano wpis changelog dla 0.1.11.",
+        "uk": "Додано запис змін для 0.1.11.",
+        "zh-cn": "已添加 0.1.11 的更新日志条目。"
       }
     },
     "titleLang": {
