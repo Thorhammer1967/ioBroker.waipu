@@ -65,6 +65,8 @@ Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu*
 
 ## Changelog
 
+### 0.1.29
+- Token-freies Trusted Publishing aktiviert (E3019).
 ### 0.1.28
 - Checker-Fixes: vollständige News-Übersetzungen, Changelog-Link, Trusted Publishing ohne Token.
 ### 0.1.27

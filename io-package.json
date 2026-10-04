@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.28",
+    "version": "0.1.29",
     "news": {
+      "0.1.29": {
+        "en": "Token-free trusted publishing activated (E3019).",
+        "de": "Token-freies Trusted Publishing aktiviert (E3019).",
+        "ru": "Активирована доверенная публикация без токена (E3019).",
+        "pt": "Publicação confiável sem token ativada (E3019).",
+        "nl": "Token-loos trusted publishing geactiveerd (E3019).",
+        "fr": "Publication de confiance sans jeton activée (E3019).",
+        "it": "Pubblicazione attendibile senza token attivata (E3019).",
+        "es": "Publicación confiable sin token activada (E3019).",
+        "pl": "Aktywowano zaufaną publikację bez tokenu (E3019).",
+        "uk": "Увімкнено довірену публікацію без токена (E3019).",
+        "zh-cn": "已启用免令牌的可信发布 (E3019)。"
+      },
       "0.1.28": {
         "en": "Checker fixes: full news translations, changelog link and token-free trusted publishing.",
         "de": "Checker-Fixes: vollständige News-Übersetzungen, Changelog-Link und Trusted Publishing ohne Token.",
@@ -15,19 +28,6 @@
         "pl": "Poprawki kontrolera: pełne tłumaczenia nowości, link do listy zmian i zaufana publikacja bez tokenu.",
         "uk": "Виправлення для перевірки: повні переклади новин, посилання на список змін і довірена публікація без токена.",
         "zh-cn": "检查器修复：完整的新闻翻译、变更日志链接以及免令牌的可信发布。"
-      },
-      "0.1.27": {
-        "en": "Publish switched back to the proven npm token flow.",
-        "de": "Veröffentlichung wieder über den bewährten npm-Token-Weg.",
-        "ru": "Публикация снова выполняется через проверенный поток с npm-токеном.",
-        "pt": "Publicação voltou a usar o fluxo comprovado com token npm.",
-        "nl": "Publicatie weer via het bewezen npm-tokenproces.",
-        "fr": "Publication de nouveau via le flux éprouvé du jeton npm.",
-        "it": "Pubblicazione di nuovo tramite il percorso collaudato del token npm.",
-        "es": "Publicación de nuevo mediante el flujo probado con token de npm.",
-        "pl": "Publikacja ponownie za pomocą sprawdzonego przepływu tokenu npm.",
-        "uk": "Публікація знову через перевірений потік із npm-токеном.",
-        "zh-cn": "发布重新改回已验证的 npm 令牌流程。"
       },
       "0.1.20": {
         "en": "News window trimmed.",

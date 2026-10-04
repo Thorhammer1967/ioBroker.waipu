@@ -65,6 +65,8 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 
 ## Changelog
 
+### 0.1.29
+- Token-free trusted publishing activated (E3019).
 ### 0.1.28
 - Checker fixes: full news translations, changelog link, token-free trusted publishing.
 ### 0.1.27
