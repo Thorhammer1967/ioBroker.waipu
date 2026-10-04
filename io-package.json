@@ -1,20 +1,20 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.33",
+    "version": "0.1.34",
     "news": {
-      "0.1.33": {
-        "en": "Object structure complete: channel containers for info and recordings, stale recording cleanup.",
-        "de": "Objektstruktur vollständig: Channel-Container für info und Aufnahmen, Aufräumen veralteter Aufnahmen.",
-        "ru": "Полная структура объектов: контейнеры каналов для info и записей, очистка устаревших записей.",
-        "pt": "Estrutura de objetos completa: contentores de canais para info e gravações, limpeza de gravações obsoletas.",
-        "nl": "Volledige objectstructuur: kanaalcontainers voor info en opnames, opschonen van verouderde opnames.",
-        "fr": "Structure d'objets complète : conteneurs de canaux pour info et enregistrements, nettoyage des enregistrements obsolètes.",
-        "it": "Struttura oggetti completa: contenitori di canali per info e registrazioni, pulizia delle registrazioni obsolete.",
-        "es": "Estructura de objetos completa: contenedores de canales para info y grabaciones, limpieza de grabaciones obsoletas.",
-        "pl": "Kompletna struktura obiektów: kontenery kanałów dla info i nagrań, czyszczenie nieaktualnych nagrań.",
-        "uk": "Повна структура об'єктів: контейнери каналів для info і записів, очищення застарілих записів.",
-        "zh-cn": "完整的对象结构：info 和录像的通道容器，清理过时录像。"
+      "0.1.34": {
+        "en": "Compact mode enabled (S1039); .vscode settings committed (S4036).",
+        "de": "Compact-Modus aktiviert (S1039); .vscode-Settings eingecheckt (S4036).",
+        "ru": "Включён компактный режим (S1039); зафиксированы настройки .vscode (S4036).",
+        "pt": "Modo compacto ativado (S1039); configurações .vscode confirmadas (S4036).",
+        "nl": "Compactmodus ingeschakeld (S1039); .vscode-instellingen vastgelegd (S4036).",
+        "fr": "Mode compact activé (S1039); réglages .vscode ajoutés (S4036).",
+        "it": "Modalità compatta attivata (S1039); impostazioni .vscode aggiunte (S4036).",
+        "es": "Modo compacto activado (S1039); ajustes .vscode añadidos (S4036).",
+        "pl": "Włączono tryb kompaktowy (S1039); dodano ustawienia .vscode (S4036).",
+        "uk": "Увімкнено компактний режим (S1039); додано налаштування .vscode (S4036).",
+        "zh-cn": "启用紧凑模式 (S1039)；提交 .vscode 设置 (S4036)。"
       },
       "0.1.28": {
         "en": "Checker fixes: full news translations, changelog link and token-free trusted publishing.",
@@ -157,7 +157,7 @@
       "dvr",
       "television"
     ],
-    "compact": false
+    "compact": true
   },
   "native": {
     "username": "",

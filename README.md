@@ -65,8 +65,8 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 
 ## Changelog
 
-### 0.1.33
-- Object structure complete: channel containers for info and recordings, stale recording cleanup.
+### 0.1.34
+- Compact mode enabled (S1039); .vscode settings committed (S4036).
 ### 0.1.28
 - Checker fixes: full news translations, changelog link, token-free trusted publishing.
 ### 0.1.27

@@ -65,8 +65,8 @@ Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu*
 
 ## Changelog
 
-### 0.1.33
-- Objektstruktur vollständig: Channel-Container für info und Aufnahmen, Aufräumen veralteter Aufnahmen.
+### 0.1.34
+- Compact-Modus aktiviert (S1039); .vscode-Settings eingecheckt (S4036).
 ### 0.1.28
 - Checker-Fixes: vollständige News-Übersetzungen, Changelog-Link, Trusted Publishing ohne Token.
 ### 0.1.27
