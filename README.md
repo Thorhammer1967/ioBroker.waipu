@@ -1,69 +1,71 @@
 # ioBroker.waipu
 
-Integriert **waipu.tv** in ioBroker: Senderliste, EPG (Programmführer), das aktuell laufende Programm und die Cloud-Aufnahmen (DVR) — direkt als ioBroker-Datenpunkte.
+**Deutsch:** [README.de.md](README.de.md)
 
-**Hinweis:** Dieser Adapter ist nicht von waipu.tv autorisiert. Er nutzt eine inoffizielle API, deren Endpunkte sich jederzeit ändern können.
+Integrates **waipu.tv** into ioBroker: channel list, EPG (TV guide), currently running programs and cloud recordings (DVR) — directly as ioBroker data points.
 
-## Herkunft
+> **Note:** This adapter is not authorized by waipu.tv. It uses an unofficial API whose endpoints can change at any time.
 
-Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu** (Home-Assistant-Integration von GB-1972). Dieser Adapter ist eine eigene, für ioBroker neu gebaute Umsetzung mit eigener Struktur, Fehlerbehandlung und Verwaltung. Danke an die ha-waipu-Vorarbeit! 🙏
+## Origin
 
-## Funktionsumfang
+The API knowledge is based on the open-source work on **ha-waipu** (Home Assistant integration by GB-1972). This adapter is a new, independent implementation for ioBroker — with its own structure, error handling and state management. Thanks to the ha-waipu groundwork! 🙏
 
-- **Senderliste:** Alle im Abo enthaltenen, sichtbaren Sender als Datenpunkte.
-- **EPG:** Laufendes und nächstes Programm je Sender, plus EPG-JSON im Blickfenster (30 min zurück / 2 h vor).
-- **Cloud-Aufnahmen (DVR):** Liste, Anzahl und Details deiner waipu.tv-Aufnahmen.
-- **Verbindungsstatus:** `info.connection` zeigt den Login-/Verbindungszustand.
-- **Automatische Token-Erneuerung:** Session bleibt via Refresh-Token bestehen; Token werden verschlüsselt gespeichert.
+## Features
 
-## Voraussetzungen
+- **Channel list:** all channels included in your subscription, as data points
+- **EPG:** current and next program per channel, plus an EPG-JSON window (30 min back / 2 h ahead)
+- **Cloud recordings (DVR):** list, count and details of your waipu.tv recordings
+- **Connection status:** `info.connection` shows the login/connection state
+- **Automatic token renewal:** the session stays alive via refresh token; tokens are stored encrypted
 
-- ioBroker mit js-controller >= 3.3.0
-- Ein gültiger **waipu.tv-Account** (Abo, da Sender/EPG/DVR abhängig vom Tarif sind)
+## Requirements
+
+- ioBroker with js-controller >= 3.3.0
+- A valid **waipu.tv account** (subscription — channels, EPG and DVR depend on your tariff)
 
 ## Installation
 
-1. ioBroker öffnen → **Adapter** → Adapter installieren (Repository oder manuell per npm/Archiv).
-2. Instanz hinzufügen (z. B. `waipu.0`).
-3. In den Instanzeinstellungen **waipu.tv E-Mail** und **Passwort** eintragen.
-4. Update-Intervall wählen (Standard: 15 Minuten) und speichern — der Adapter loggt sich ein und füllt die Datenpunkte.
+1. Open ioBroker → **Adapters** → install the adapter (from npm or an archive)
+2. Add an instance (e.g. `waipu.0`)
+3. Enter your **waipu.tv e-mail** and **password** in the instance settings
+4. Choose an update interval (default: 15 minutes) and save — the adapter logs in and fills the data points
 
-## Konfiguration
+## Configuration
 
-| Feld | Beschreibung |
-|------|--------------|
-| **waipu.tv E-Mail** | E-Mail deines waipu.tv-Kontos |
-| **waipu.tv Passwort** | Passwort deines waipu.tv-Kontos (verschlüsselt gespeichert) |
-| **Update-Intervall (Minuten)** | 5–1440, Standard 15 |
-| Device ID / Access Token / Refresh Token | Wird vom Adapter automatisch beim Login gefüllt (nur lesbar) |
+| Field | Description |
+|-------|-------------|
+| **waipu.tv e-mail** | E-mail of your waipu.tv account |
+| **waipu.tv password** | Password of your waipu.tv account (stored encrypted) |
+| **Update interval (minutes)** | 5–1440, default 15 |
+| Device ID / Access Token / Refresh Token | Filled automatically by the adapter on login (read-only) |
 
-## Datenpunkte
+## Data points
 
-| State | Typ | Beschreibung |
-|-------|-----|--------------|
-| `info.connection` | boolean | Verbindung zu waipu.tv aktiv |
-| `channels.<id>.*` | diverse | Sendername, Logo, EPG-JSON, `currentProgram`, `nextProgram`, Start/Stop-Zeiten |
-| `recordings.list` | JSON | Alle Cloud-Aufnahmen (JSON) |
-| `recordings.count` | number | Anzahl Aufnahmen |
-| `recordings.<id>.*` | diverse | Titel, Status, Sender, Startzeit, Dauer je Aufnahme |
+| State | Type | Description |
+|-------|------|-------------|
+| `info.connection` | boolean | Connection to waipu.tv active |
+| `channels.<id>.*` | various | Channel name, logo, EPG JSON, `currentProgram`, `nextProgram`, start/stop times |
+| `recordings.list` | JSON | All cloud recordings (JSON) |
+| `recordings.count` | number | Number of recordings |
+| `recordings.<id>.*` | various | Title, status, station, start time, duration per recording |
 
-## Fehlerbehandlung (Kurzform)
+## Troubleshooting
 
-- **`info.connection = false` + Login-Fehler im Log:** Zugangsdaten prüfen, dann Instanz neu starten.
-- **Keine Sender/EPG:** Tarif prüfen (manche Sender sind gesperrt) und Logs auf API-Änderungen prüfen.
-- **API-Änderungen:** Da die API inoffiziell ist, können sich Endpunkte jederzeit ändern — ein Adapter-Update behebt das üblicherweise.
+- **`info.connection = false` + login errors in the log:** check your credentials, then restart the instance
+- **No channels / no EPG:** check your tariff (some channels are locked) and the log for API changes
+- **API changes:** since the API is unofficial, endpoints can change at any time — an adapter update usually fixes that
 
 ## Disclaimer
 
-- Inoffizielle API, nicht von waipu.tv unterstützt.
-- Nutzung auf eigenes Risiko, private Nutzung gedacht; Nutzungsbedingungen von waipu.tv beachten.
-- Keine Haftung für Schäden oder Ausfälle.
+- Unofficial API, not supported by waipu.tv
+- Use at your own risk, intended for private use; please observe the waipu.tv terms of use
+- No liability for damage or outages
 
 ## Changelog
 
 ### 0.1.0
-- Erste öffentliche Version: Senderliste, EPG, aktuelles Programm, Cloud-Aufnahmen, Login + Token-Rotation.
+- First public version: channel list, EPG, current program, cloud recordings, login + token rotation.
 
-## Lizenz
+## License
 
-MIT — siehe [LICENSE](LICENSE).
+MIT — see [LICENSE](LICENSE).
