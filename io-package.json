@@ -1,20 +1,20 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.30",
+    "version": "0.1.31",
     "news": {
-      "0.1.30": {
-        "en": "Trusted publishing: allowed npm publish and dist-tag (E3019).",
-        "de": "Trusted Publishing: npm publish und dist-tag erlaubt (E3019).",
-        "ru": "Доверенная публикация: разрешены npm publish и dist-tag (E3019).",
-        "pt": "Publicação confiável: npm publish e dist-tag permitidos (E3019).",
-        "nl": "Trusted publishing: npm publish en dist-tag toegestaan (E3019).",
-        "fr": "Publication de confiance : npm publish et dist-tag autorisés (E3019).",
-        "it": "Pubblicazione attendibile: npm publish e dist-tag consentiti (E3019).",
-        "es": "Publicación confiable: npm publish y dist-tag permitidos (E3019).",
-        "pl": "Zaufana publikacja: dozwolone npm publish i dist-tag (E3019).",
-        "uk": "Довірена публікація: дозволено npm publish і dist-tag (E3019).",
-        "zh-cn": "可信发布：已允许 npm publish 和 dist-tag (E3019)。"
+      "0.1.31": {
+        "en": "Object structure fixes: read/write flags, device containers, valid roles (E1003/E1008/E3009).",
+        "de": "Objektstruktur-Fixes: read/write-Flags, Geräte-Container, gültige Rollen (E1003/E1008/E3009).",
+        "ru": "Исправления структуры объектов: флаги read/write, контейнеры устройств, корректные роли (E1003/E1008/E3009).",
+        "pt": "Correções de estrutura de objetos: sinalizadores read/write, contentores de dispositivos, funções válidas (E1003/E1008/E3009).",
+        "nl": "Objectstructuur-fixes: read/write-vlaggen, apparaatcontainers, geldige rollen (E1003/E1008/E3009).",
+        "fr": "Correctifs de structure d'objets : indicateurs read/write, conteneurs de périphériques, rôles valides (E1003/E1008/E3009).",
+        "it": "Correzioni alla struttura degli oggetti: flag read/write, contenitori di dispositivi, ruoli validi (E1003/E1008/E3009).",
+        "es": "Correcciones de estructura de objetos: indicadores read/write, contenedores de dispositivos, roles válidos (E1003/E1008/E3009).",
+        "pl": "Poprawki struktury obiektów: flagi read/write, kontenery urządzeń, poprawne role (E1003/E1008/E3009).",
+        "uk": "Виправлення структури об'єктів: прапорці read/write, контейнери пристроїв, коректні ролі (E1003/E1008/E3009).",
+        "zh-cn": "对象结构修复：读写标志、设备容器、有效角色 (E1003/E1008/E3009)。"
       },
       "0.1.28": {
         "en": "Checker fixes: full news translations, changelog link and token-free trusted publishing.",

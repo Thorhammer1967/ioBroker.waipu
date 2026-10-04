@@ -65,8 +65,8 @@ Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu*
 
 ## Changelog
 
-### 0.1.30
-- Trusted Publishing: npm publish und dist-tag erlaubt (E3019).
+### 0.1.31
+- Objektstruktur-Fixes: read/write-Flags, Geräte-Container, gültige Rollen (E1003/E1008/E3009).
 ### 0.1.28
 - Checker-Fixes: vollständige News-Übersetzungen, Changelog-Link, Trusted Publishing ohne Token.
 ### 0.1.27

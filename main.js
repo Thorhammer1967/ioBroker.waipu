@@ -154,6 +154,13 @@ class Waipu extends utils.Adapter {
       this._stationIds = [];
       this._stationIdMap.clear();
 
+      // Sammel-Objekt "channels" (device) anlegen – Checker verlangt die Zwischenebene
+      await this.setObjectNotExistsAsync("channels", {
+        type: "device",
+        common: { name: "Sender (waipu.tv)" },
+        native: {},
+      });
+
       for (const s of visible) {
         const sid = String(s.id);
         const objId = this._escapeId(sid);
@@ -179,6 +186,8 @@ class Waipu extends utils.Adapter {
             name: "Aktuelles Programm Beginn",
             type: "number",
             role: "value.time",
+            read: true,
+            write: false,
           },
           native: {},
         });
@@ -188,6 +197,8 @@ class Waipu extends utils.Adapter {
             name: "Aktuelles Programm Ende",
             type: "number",
             role: "value.time",
+            read: true,
+            write: false,
           },
           native: {},
         });
@@ -198,17 +209,19 @@ class Waipu extends utils.Adapter {
             name: "EPG-Programme (JSON)",
             type: "string",
             role: "json",
+            read: true,
+            write: false,
           },
           native: {},
         });
         await this.setObjectNotExistsAsync(`channels.${objId}.currentProgram`, {
           type: "state",
-          common: { name: "Aktuelles Programm", type: "string", role: "text" },
+          common: { name: "Aktuelles Programm", type: "string", role: "text", read: true, write: false },
           native: {},
         });
         await this.setObjectNotExistsAsync(`channels.${objId}.nextProgram`, {
           type: "state",
-          common: { name: "Nächstes Programm", type: "string", role: "text" },
+          common: { name: "Nächstes Programm", type: "string", role: "text", read: true, write: false },
           native: {},
         });
 
@@ -308,15 +321,22 @@ class Waipu extends utils.Adapter {
     try {
       const recordings = await this.client.getRecordings();
 
+      // Sammel-Objekt "recordings" (device) anlegen – Checker verlangt die Zwischenebene
+      await this.setObjectNotExistsAsync("recordings", {
+        type: "device",
+        common: { name: "Aufnahmen (waipu.tv)" },
+        native: {},
+      });
+
       // Objekte für Sammel-States (sonst Warnung "no existing object")
       await this.setObjectNotExistsAsync("recordings.list", {
         type: "state",
-        common: { name: "Aufnahmen (JSON)", type: "string", role: "json" },
+        common: { name: "Aufnahmen (JSON)", type: "string", role: "json", read: true, write: false },
         native: {},
       });
       await this.setObjectNotExistsAsync("recordings.count", {
         type: "state",
-        common: { name: "Anzahl Aufnahmen", type: "number", role: "value" },
+        common: { name: "Anzahl Aufnahmen", type: "number", role: "value", read: true, write: false },
         native: {},
       });
 
@@ -330,22 +350,22 @@ class Waipu extends utils.Adapter {
 
         await this.setObjectNotExistsAsync(`${base}.title`, {
           type: "state",
-          common: { name: "Titel", type: "string", role: "text" },
+          common: { name: "Titel", type: "string", role: "text", read: true, write: false },
           native: {},
         });
         await this.setObjectNotExistsAsync(`${base}.status`, {
           type: "state",
-          common: { name: "Status", type: "string", role: "text" },
+          common: { name: "Status", type: "string", role: "text", read: true, write: false },
           native: {},
         });
         await this.setObjectNotExistsAsync(`${base}.stationDisplay`, {
           type: "state",
-          common: { name: "Sender", type: "string", role: "text" },
+          common: { name: "Sender", type: "string", role: "text", read: true, write: false },
           native: {},
         });
         await this.setObjectNotExistsAsync(`${base}.recordingStartTime`, {
           type: "state",
-          common: { name: "Aufnahme-Startzeit", type: "string", role: "text" },
+          common: { name: "Aufnahme-Startzeit", type: "string", role: "text", read: true, write: false },
           native: {},
         });
         await this.setObjectNotExistsAsync(`${base}.durationSeconds`, {
@@ -353,13 +373,16 @@ class Waipu extends utils.Adapter {
           common: {
             name: "Dauer (Sekunden)",
             type: "number",
-            role: "value.duration",
+            role: "value",
+            unit: "s",
+            read: true,
+            write: false,
           },
           native: {},
         });
         await this.setObjectNotExistsAsync(`${base}.epgStartTime`, {
           type: "state",
-          common: { name: "EPG-Startzeit", type: "string", role: "text" },
+          common: { name: "EPG-Startzeit", type: "string", role: "text", read: true, write: false },
           native: {},
         });
 
