@@ -37,7 +37,8 @@
     "test:eslint": "eslint .",
     "test:package": "mocha --config test/mocharc.custom.json test/package --exit",
     "test:integration": "mocha --config test/mocharc.custom.json test/integration --exit",
-    "test": "npm run test:eslint && npm run test:package && npm run test:integration"
+    "test": "npm run test:eslint && npm run test:package && npm run test:integration",
+    "check": "tsc --noEmit"
   },
   "repository": {
     "type": "git",
