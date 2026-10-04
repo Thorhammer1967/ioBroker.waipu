@@ -76,6 +76,8 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 ### 0.1.5
 - Fixed trusted publishing (removed npm-token); release signed with provenance.
 
+### 0.1.4
+- Release automation test (npm-token publish).
 ### 0.1.2
 - Release automation enabled; published from CI with trusted publishing.
 ### 0.1.2

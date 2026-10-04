@@ -76,6 +76,8 @@ Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu*
 ### 0.1.5
 - Vertrauenswürdiges Veröffentlichen korrigiert (npm-token entfernt); Release mit Prüfsignatur.
 
+### 0.1.4
+- Release-Automatisierungstest (Publish via npm-token).
 ### 0.1.2
 - Release automation enabled; published from CI with trusted publishing.
 ### 0.1.2

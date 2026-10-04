@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.9",
+    "version": "0.1.10",
     "news": {
       "0.1.0": {
         "en": "First public version: channels, EPG and recordings of waipu.tv",
@@ -55,45 +55,6 @@
         "uk": "Виправлено довірений публікування (npm-token вилучено); реліз підписано provenance.",
         "zh-cn": "修复可信发布（已移除 npm-token）；发布版本已添加出处签名。"
       },
-      "0.1.6": {
-        "en": "Trusted publishing cleaned (npm-token removed).",
-        "de": "Trusted Publishing bereinigt (npm-token entfernt).",
-        "ru": "Trusted publishing cleaned (npm-token removed).",
-        "pt": "Trusted publishing cleaned (npm-token removed).",
-        "nl": "Trusted publishing cleaned (npm-token removed).",
-        "fr": "Trusted publishing cleaned (npm-token removed).",
-        "it": "Trusted publishing cleaned (npm-token removed).",
-        "es": "Trusted publishing cleaned (npm-token removed).",
-        "pl": "Trusted publishing cleaned (npm-token removed).",
-        "uk": "Trusted publishing cleaned (npm-token removed).",
-        "zh-cn": "Trusted publishing cleaned (npm-token removed)."
-      },
-      "0.1.7": {
-        "en": "Debug step removed.",
-        "de": "Debugschritt entfernt.",
-        "ru": "Debug step removed.",
-        "pt": "Debug step removed.",
-        "nl": "Debug step removed.",
-        "fr": "Debug step removed.",
-        "it": "Debug step removed.",
-        "es": "Debug step removed.",
-        "pl": "Debug step removed.",
-        "uk": "Debug step removed.",
-        "zh-cn": "Debug step removed."
-      },
-      "0.1.8": {
-        "en": "Publish via npm-token in CI (provenance signed automatically by npm>=11.5).",
-        "de": "Veröffentlichung via npm-token in der CI (Prüfsignatur automatisch ab npm 11.5).",
-        "ru": "Publish via npm-token in CI; provenance signed automatically (npm>=11.5).",
-        "pt": "Publish via npm-token in CI; provenance signed automatically (npm>=11.5).",
-        "nl": "Publish via npm-token in CI; provenance signed automatically (npm>=11.5).",
-        "fr": "Publish via npm-token in CI; provenance signed automatically (npm>=11.5).",
-        "it": "Publish via npm-token in CI; provenance signed automatically (npm>=11.5).",
-        "es": "Publish via npm-token in CI; provenance signed automatically (npm>=11.5).",
-        "pl": "Publish via npm-token in CI; provenance signed automatically (npm>=11.5).",
-        "uk": "Publish via npm-token in CI; provenance signed automatically (npm>=11.5).",
-        "zh-cn": "Publish via npm-token in CI; provenance signed automatically (npm>=11.5)."
-      },
       "0.1.9": {
         "en": "Publish via npm-token restored in CI.",
         "de": "Veröffentlichung via npm-token in der CI wiederhergestellt.",
@@ -101,11 +62,24 @@
         "pt": "Publicação via npm-token restaurada na CI.",
         "nl": "Publicatie via npm-token hersteld in CI.",
         "fr": "Publication via npm-token restaurée dans la CI.",
-        "it": "Pubblicazione via npm-token ripristinata nella CI.",
-        "es": "Publicación vía npm-token restaurada en CI.",
+        "it": "Pubblicazione tramite npm-token ripristinata nella CI.",
+        "es": "Publicación mediante npm-token restaurada en la CI.",
         "pl": "Publikacja przez npm-token przywrócona w CI.",
         "uk": "Публікацію через npm-token відновлено в CI.",
-        "zh-cn": "CI 中恢复了通过 npm-token 发布。"
+        "zh-cn": "CI 中已恢复通过 npm-token 进行发布。"
+      },
+      "0.1.10": {
+        "en": "News entries cleaned to match published npm versions.",
+        "de": "News-Einträge an veröffentlichte npm-Versionen angeglichen.",
+        "ru": "Записи news приведены в соответствие с опубликованными версиями npm.",
+        "pt": "Entradas de news alinhadas às versões npm publicadas.",
+        "nl": "Nieuwsitems afgestemd op gepubliceerde npm-versies.",
+        "fr": "Entrées news alignées sur les versions npm publiées.",
+        "it": "Voci news allineate alle versioni npm pubblicate.",
+        "es": "Entradas de news alineadas con las versiones npm publicadas.",
+        "pl": "Wpisy news dostosowane do opublikowanych wersji npm.",
+        "uk": "Записи news узгоджено з опублікованими версіями npm.",
+        "zh-cn": "news 条目与已发布的 npm 版本保持一致。"
       }
     },
     "titleLang": {
