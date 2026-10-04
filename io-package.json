@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.10",
+    "version": "0.1.11",
     "news": {
       "0.1.0": {
         "en": "First public version: channels, EPG and recordings of waipu.tv",
@@ -80,6 +80,19 @@
         "pl": "Wpisy news dostosowane do opublikowanych wersji npm.",
         "uk": "Записи news узгоджено з опублікованими версіями npm.",
         "zh-cn": "news 条目与已发布的 npm 版本保持一致。"
+      },
+      "0.1.11": {
+        "en": "README changelog completed.",
+        "de": "README-Änderungsliste vervollständigt.",
+        "ru": "Список изменений README дополнен.",
+        "pt": "Changelog do README concluído.",
+        "nl": "README changelog voltooid.",
+        "fr": "Journal des modifications du README complété.",
+        "it": "Changelog del README completato.",
+        "es": "Changelog del README completado.",
+        "pl": "Dopełniono README change log.",
+        "uk": "Історію змін README доповнено.",
+        "zh-cn": "README 更新日志已完成。"
       }
     },
     "titleLang": {

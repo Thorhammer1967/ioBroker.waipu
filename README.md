@@ -69,6 +69,8 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 - Trusted publishing cleaned (npm-token removed).
 ### 0.1.7
 - Debug step removed.
+### 0.1.10
+- News entries aligned to published npm versions.
 ### 0.1.9
 - Publish via npm-token restored in CI.
 ### 0.1.8

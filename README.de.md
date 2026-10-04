@@ -69,6 +69,8 @@ Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu*
 - Trusted publishing cleaned (npm-token removed).
 ### 0.1.7
 - Debug step removed.
+### 0.1.10
+- News-Einträge an veröffentlichte npm-Versionen angeglichen.
 ### 0.1.9
 - Veröffentlichung via npm-token in der CI wiederhergestellt.
 ### 0.1.8
