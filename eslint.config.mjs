@@ -1,0 +1,14 @@
+import cfg from "@iobroker/eslint-config";
+
+const parts = Array.isArray(cfg) ? cfg : [cfg];
+for (const part of parts) {
+  if (part.rules) {
+    for (const key of Object.keys(part.rules)) {
+      if (key.startsWith("jsdoc")) {
+        part.rules[key] = "off"; // jsdoc-Pflicht ab Version 0.2 (separater Doku-Lauf)
+      }
+    }
+  }
+}
+
+export default parts;
