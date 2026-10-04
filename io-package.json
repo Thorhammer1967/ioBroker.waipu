@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "news": {
       "0.1.0": {
         "en": "First public version: channels, EPG and recordings of waipu.tv",
@@ -41,6 +41,19 @@
         "pl": "Poprawiono automatyzację wydania; aktualizacja wersji (deploy przez NPM_TOKEN).",
         "uk": "Виправлено автоматизацію релізів; оновлення версії (публікація через NPM_TOKEN).",
         "zh-cn": "修复发布自动化；版本提升（通过 NPM_TOKEN 部署）。"
+      },
+      "0.1.5": {
+        "en": "Fixed trusted publishing (npm-token removed); release signed with provenance.",
+        "de": "Vertrauenswürdiges Veröffentlichen korrigiert (npm-token entfernt); Release mit Prüfsignatur versehen.",
+        "ru": "Исправлена доверенная публикация (npm-token удалён); релиз подписан provenance.",
+        "pt": "Publicação confiável corrigida (npm-token removido); versão assinada com provenance.",
+        "nl": "Vertrouwd publiceren hersteld (npm-token verwijderd); release ondertekend met provenance.",
+        "fr": "Publication de confiance corrigée (npm-token supprimé) ; version signée avec provenance.",
+        "it": "Pubblicazione attendibile corretta (npm-token rimosso); release firmata con provenance.",
+        "es": "Publicación confiable corregida (npm-token eliminado); versión firmada con provenance.",
+        "pl": "Poprawiono zaufane publikowanie (usunięto npm-token); wydanie podpisane provenance.",
+        "uk": "Виправлено довірений публікування (npm-token вилучено); реліз підписано provenance.",
+        "zh-cn": "修复可信发布（已移除 npm-token）；发布版本已添加出处签名。"
       }
     },
     "titleLang": {
