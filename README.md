@@ -65,6 +65,11 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 
 ## Changelog
 
+### 0.1.2
+- Release automation enabled; published from CI with trusted publishing.
+### 0.1.2
+- Release-Automatisierung aktiviert; Veröffentlichung aus der CI mit Prüfsignatur.
+
 ### 0.1.0
 - First public version: channel list, EPG, current program, cloud recordings, login + token rotation.
 

@@ -65,6 +65,11 @@ Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu*
 
 ## Changelog
 
+### 0.1.2
+- Release automation enabled; published from CI with trusted publishing.
+### 0.1.2
+- Release-Automatisierung aktiviert; Veröffentlichung aus der CI mit Prüfsignatur.
+
 ### 0.1.0
 - Erste öffentliche Version: Senderliste, EPG, aktuelles Programm, Cloud-Aufnahmen, Login + Token-Rotation.
 

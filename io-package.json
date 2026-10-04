@@ -16,19 +16,6 @@
         "uk": "Перша публічна версія: канали, EPG та записи waipu.tv",
         "zh-cn": "首个公开版本：waipu.tv 的频道、EPG 和录像"
       },
-      "0.1.1": {
-        "en": "Bugfix release: final formatting, license link added. Published with provenance.",
-        "de": "Bugfix-Release: finale Formatierung, Lizenz-Link ergänzt. Mit Prüfsignatur veröffentlicht.",
-        "ru": "Исправление: финальное форматирование, ссылка на лицензию. Публикация с провенансом.",
-        "pt": "Lançamento de correção: formatação final, link de licença. Publicado com proveniência.",
-        "nl": "Bugfix-release: definitieve opmaak, licentielink toegevoegd. Gepubliceerd met provenance.",
-        "fr": "Version corrective : mise en forme finale, lien de licence ajouté. Publié avec provenance.",
-        "it": "Rilascio di correzione: formattazione finale, link licenza aggiunto. Pubblicato con provenienza.",
-        "es": "Versión de corrección: formato final, enlace de licencia añadido. Publicado con procedencia.",
-        "pl": "Wydanie poprawkowe: końcowe formatowanie, link do licencji. Opublikowano z pochodzeniem.",
-        "uk": "Виправлення: фінальне форматування, посилання на ліцензію. Опубліковано з провенансом.",
-        "zh-cn": "错误修复版本：最终格式化，添加许可证链接。带来源发布。"
-      },
       "0.1.2": {
         "en": "Release automation enabled (deploy via trusted publishing).",
         "de": "Release-Automatisierung aktiviert (vertrauenswürdiges Veröffentlichen).",
