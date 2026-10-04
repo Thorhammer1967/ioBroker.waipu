@@ -1,98 +1,35 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.25",
+    "version": "0.1.26",
     "news": {
-      "0.1.25": {
-        "en": "Publish via environment pinning (release).",
-        "de": "Veröffentlichung mit Environment-Pinning (release).",
-        "ru": "Publish via environment pinning (release).",
-        "pt": "Publish via environment pinning (release).",
-        "nl": "Publish via environment pinning (release).",
-        "fr": "Publish via environment pinning (release).",
-        "it": "Publish via environment pinning (release).",
-        "es": "Publish via environment pinning (release).",
-        "pl": "Publish via environment pinning (release).",
-        "uk": "Publish via environment pinning (release).",
-        "zh-cn": "Publish via environment pinning (release)."
-      },
-      "0.1.24": {
-        "en": "Trusted publishing fully configured.",
-        "de": "Trusted Publishing vollständig konfiguriert.",
-        "ru": "Trusted publishing fully configured.",
-        "pt": "Trusted publishing fully configured.",
-        "nl": "Trusted publishing fully configured.",
-        "fr": "Trusted publishing fully configured.",
-        "it": "Trusted publishing fully configured.",
-        "es": "Trusted publishing fully configured.",
-        "pl": "Trusted publishing fully configured.",
-        "uk": "Trusted publishing fully configured.",
-        "zh-cn": "Trusted publishing fully configured."
-      },
-      "0.1.23": {
-        "en": "OIDC login verified after npm setup.",
-        "de": "OIDC-Anmeldung nach npm-Konfiguration geprüft.",
-        "ru": "OIDC login verified after npm setup.",
-        "pt": "OIDC login verified after npm setup.",
-        "nl": "OIDC login verified after npm setup.",
-        "fr": "OIDC login verified after npm setup.",
-        "it": "OIDC login verified after npm setup.",
-        "es": "OIDC login verified after npm setup.",
-        "pl": "OIDC login verified after npm setup.",
-        "uk": "OIDC login verified after npm setup.",
-        "zh-cn": "OIDC login verified after npm setup."
-      },
-      "0.1.22": {
-        "en": "Trusted publishing configured at npm.",
-        "de": "Trusted Publishing bei npm konfiguriert.",
-        "ru": "Trusted publishing configured at npm.",
-        "pt": "Trusted publishing configured at npm.",
-        "nl": "Trusted publishing configured at npm.",
-        "fr": "Trusted publishing configured at npm.",
-        "it": "Trusted publishing configured at npm.",
-        "es": "Trusted publishing configured at npm.",
-        "pl": "Trusted publishing configured at npm.",
-        "uk": "Trusted publishing configured at npm.",
-        "zh-cn": "Trusted publishing configured at npm."
-      },
-      "0.1.21": {
-        "en": "Repository URL pinned.",
-        "de": "Repository-Adresse gesetzt.",
-        "ru": "Repository URL pinned.",
-        "pt": "Repository URL pinned.",
-        "nl": "Repository URL pinned.",
-        "fr": "Repository URL pinned.",
-        "it": "Repository URL pinned.",
-        "es": "Repository URL pinned.",
-        "pl": "Repository URL pinned.",
-        "uk": "Repository URL pinned.",
-        "zh-cn": "Repository URL pinned."
+      "0.1.26": {
+        "en": "Trusted publishing retry aligned with ioBroker standard workflow.",
+        "de": "Veröffentlichungs-Wiederholung nach ioBroker-Standardmuster."
       },
       "0.1.20": {
         "en": "News window trimmed.",
-        "de": "News-Fenster gekürzt.",
-        "ru": "News window trimmed.",
-        "pt": "News window trimmed.",
-        "nl": "News window trimmed.",
-        "fr": "News window trimmed.",
-        "it": "News window trimmed.",
-        "es": "News window trimmed.",
-        "pl": "News window trimmed.",
-        "uk": "News window trimmed.",
-        "zh-cn": "News window trimmed."
+        "de": "News-Fenster gekürzt."
       },
       "0.1.19": {
         "en": "Re-check from CI.",
-        "de": "Neuprüfung aus der CI.",
-        "ru": "Re-check from CI.",
-        "pt": "Re-check from CI.",
-        "nl": "Re-check from CI.",
-        "fr": "Re-check from CI.",
-        "it": "Re-check from CI.",
-        "es": "Re-check from CI.",
-        "pl": "Re-check from CI.",
-        "uk": "Re-check from CI.",
-        "zh-cn": "Re-check from CI."
+        "de": "Neuprüfung aus der CI."
+      },
+      "0.1.15": {
+        "en": "Changelog housekeeping.",
+        "de": "Änderungslisten-Pflege."
+      },
+      "0.1.14": {
+        "en": "News trimmed to 7.",
+        "de": "News auf 7 gekürzt."
+      },
+      "0.1.13": {
+        "en": "Changelog 0.1.9 added.",
+        "de": "Änderungsliste 0.1.9 ergänzt."
+      },
+      "0.1.12": {
+        "en": "Changelog 0.1.11 completed.",
+        "de": "Änderungsliste 0.1.11 ergänzt."
       }
     },
     "titleLang": {

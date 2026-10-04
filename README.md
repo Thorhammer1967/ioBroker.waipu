@@ -65,6 +65,8 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 
 ## Changelog
 
+### 0.1.26
+- Publish retry aligned with the standard ioBroker deploy workflow.
 ### 0.1.25
 - npm publish via environment pinning (release).
 ### 0.1.25
