@@ -4,7 +4,7 @@
   "items": {
     "username": {
       "type": "text",
-      "label": "waipu.tv E-Mail",
+      "label": "waipu.tv email",
       "sm": 12,
       "md": 6,
       "lg": 4,
@@ -13,7 +13,7 @@
     },
     "password": {
       "type": "password",
-      "label": "waipu.tv Passwort",
+      "label": "waipu.tv password",
       "sm": 12,
       "md": 6,
       "lg": 4,
@@ -22,7 +22,7 @@
     },
     "updateInterval": {
       "type": "number",
-      "label": "Update-Intervall in Minuten",
+      "label": "Update interval (minutes)",
       "min": 5,
       "max": 1440,
       "default": 15,
@@ -34,7 +34,7 @@
     },
     "deviceId": {
       "type": "text",
-      "label": "Device ID (Auto-generiert bei Login)",
+      "label": "Device ID",
       "sm": 12,
       "md": 6,
       "lg": 4,
@@ -44,7 +44,7 @@
     },
     "accessToken": {
       "type": "text",
-      "label": "Access Token (Auto, wird von waipu.tv geliefert)",
+      "label": "Access token",
       "sm": 12,
       "md": 6,
       "lg": 4,
@@ -54,7 +54,7 @@
     },
     "refreshToken": {
       "type": "text",
-      "label": "Refresh Token (Auto, von waipu.tv)",
+      "label": "Refresh token",
       "sm": 12,
       "md": 6,
       "lg": 4,

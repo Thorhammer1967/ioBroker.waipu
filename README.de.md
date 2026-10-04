@@ -70,4 +70,6 @@ Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu*
 
 ## Lizenz
 
-MIT — siehe [LICENSE](LICENSE).
+MIT
+
+Copyright (c) 2026 Thorhammer1967 <junk-alles@t-online.de>

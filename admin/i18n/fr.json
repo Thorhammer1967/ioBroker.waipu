@@ -1,0 +1,8 @@
+{
+  "waipu.tv email": "e-mail waipu.tv",
+  "waipu.tv password": "mot de passe waipu.tv",
+  "Update interval (minutes)": "Intervalle de mise à jour (minutes)",
+  "Device ID": "ID de l'appareil",
+  "Access token": "Jeton d'accès",
+  "Refresh token": "Jeton de renouvellement"
+}

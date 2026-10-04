@@ -25,19 +25,19 @@
     "@alcalzone/release-script-plugin-iobroker": "^5.2.0",
     "@alcalzone/release-script-plugin-license": "^5.2.2",
     "@alcalzone/release-script-plugin-manual-review": "^5.2.0",
-    "@iobroker/adapter-dev": "^1.4.1",
+    "@iobroker/adapter-dev": "^1.5.0",
     "@iobroker/eslint-config": "^2.3.4",
     "@iobroker/testing": "^6.3.0",
-    "@types/node": "^22.10.0",
-    "mocha": "^10.8.2"
+    "@tsconfig/node22": "^22.0.6",
+    "@types/node": "^22.10.0"
   },
   "main": "main.js",
   "scripts": {
     "lint": "eslint .",
     "test:eslint": "eslint .",
-    "test:package": "mocha --config test/mocharc.custom.json test/package --exit",
-    "test:integration": "mocha --config test/mocharc.custom.json test/integration --exit",
-    "test": "npm run test:eslint && npm run test:package && npm run test:integration",
+    "test:package": "node test/run-package-tests.js",
+    "test:integration": "node test/run-integration-tests.js",
+    "test": "npm run check && npm run lint && npm run test:package",
     "check": "tsc --noEmit"
   },
   "repository": {
@@ -54,7 +54,6 @@
     "io-package.json",
     "LICENSE",
     "README.md",
-    "README.de.md",
-    "CHANGELOG_OLD.md"
+    "README.de.md"
   ]
 }

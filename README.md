@@ -68,6 +68,10 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 ### 0.1.0
 - First public version: channel list, EPG, current program, cloud recordings, login + token rotation.
 
+Older entries: [CHANGELOG_OLD.md](CHANGELOG_OLD.md)
+
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT
+
+Copyright (c) 2026 Thorhammer1967 <junk-alles@t-online.de>

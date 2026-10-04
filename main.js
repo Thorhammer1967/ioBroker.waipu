@@ -7,17 +7,8 @@
 
 const utils = require("@iobroker/adapter-core");
 const crypto = require("node:crypto");
-const {
-  WaipuClient,
-  WaipuApiError,
-  WaipuAuthError,
-  WaipuPermissionError,
-} = require("./lib/waipu-api.js");
-const {
-  DEFAULT_USER_AGENT,
-  EPG_LOOKAHEAD_HOURS,
-  EPG_LOOKBEHIND_MINUTES,
-} = require("./lib/const.js");
+const { WaipuClient, WaipuApiError, WaipuAuthError, WaipuPermissionError } = require("./lib/waipu-api.js");
+const { DEFAULT_USER_AGENT, EPG_LOOKAHEAD_HOURS, EPG_LOOKBEHIND_MINUTES } = require("./lib/const.js");
 
 class Waipu extends utils.Adapter {
   constructor(options = {}) {
@@ -47,18 +38,13 @@ class Waipu extends utils.Adapter {
   }
 
   async onReady() {
-    this.log.info(
-      `waipu Adapter gestartet, Version ${
-        this.version || this.common?.version || "0.0.1"
-      }`,
-    );
+    this.log.info(`waipu Adapter gestartet, Version ${this.version || this.common?.version || "0.0.1"}`);
 
     const cfg = this.config || {};
 
     this.username = cfg.username || "";
     this.password = cfg.password || "";
-    this.updateInterval =
-      Number(cfg.updateInterval) > 0 ? Number(cfg.updateInterval) : 15;
+    this.updateInterval = Number(cfg.updateInterval) > 0 ? Number(cfg.updateInterval) : 15;
 
     // --- deviceId sicherstellen und dauerhaft in der Instanz persistieren ---
     let deviceId = cfg.deviceId || "";
@@ -67,10 +53,7 @@ class Waipu extends utils.Adapter {
       this.log.info(`Keine deviceId konfiguriert, generiere neue: ${deviceId}`);
       try {
         await this.getForeignObjectAsync(`system.adapter.${this.namespace}`);
-        await this.extendForeignObjectAsync(
-          `system.adapter.${this.namespace}`,
-          { native: { deviceId } },
-        );
+        await this.extendForeignObjectAsync(`system.adapter.${this.namespace}`, { native: { deviceId } });
       } catch (e) {
         this.log.warn(`deviceId konnte nicht persistiert werden: ${e.message}`);
       }
@@ -92,28 +75,17 @@ class Waipu extends utils.Adapter {
           // Die Basisklasse entschlüsselt encryptedNative-Felder beim Start
           // automatisch in this.config → Login bleibt unverändert.
           // this.encrypt(value) nutzt das bereits geladene _systemSecret.
-          const encAccess = accessToken
-            ? this.encrypt(String(accessToken))
-            : "";
-          const encRefresh = refreshToken
-            ? this.encrypt(String(refreshToken))
-            : "";
-          const obj = await this.getForeignObjectAsync(
-            `system.adapter.${this.namespace}`,
-          );
+          const encAccess = accessToken ? this.encrypt(String(accessToken)) : "";
+          const encRefresh = refreshToken ? this.encrypt(String(refreshToken)) : "";
+          const obj = await this.getForeignObjectAsync(`system.adapter.${this.namespace}`);
           if (obj && obj.native) {
-            await this.extendForeignObjectAsync(
-              `system.adapter.${this.namespace}`,
-              {
-                native: {
-                  accessToken: encAccess || obj.native.accessToken || "",
-                  refreshToken: encRefresh || obj.native.refreshToken || "",
-                },
+            await this.extendForeignObjectAsync(`system.adapter.${this.namespace}`, {
+              native: {
+                accessToken: encAccess || obj.native.accessToken || "",
+                refreshToken: encRefresh || obj.native.refreshToken || "",
               },
-            );
-            this.log.debug(
-              "Tokens im Instanz-Objekt verschlüsselt persistiert",
-            );
+            });
+            this.log.debug("Tokens im Instanz-Objekt verschlüsselt persistiert");
           }
         } catch (e) {
           this.log.warn(`Token-Persistenz fehlgeschlagen: ${e.message}`);
@@ -127,9 +99,7 @@ class Waipu extends utils.Adapter {
     let loggedIn = false;
     try {
       if (cfg.accessToken || cfg.refreshToken) {
-        this.log.info(
-          "Vorhandene Token gefunden – nutze ensureToken() (Refresh bzw. Passwort-Fallback)",
-        );
+        this.log.info("Vorhandene Token gefunden – nutze ensureToken() (Refresh bzw. Passwort-Fallback)");
         await this.client.ensureToken();
       } else {
         this.log.info("Keine Tokens – führe Passwort-Login durch");
@@ -152,16 +122,12 @@ class Waipu extends utils.Adapter {
 
     // --- Periodischer Lauf (updateInterval in Minuten, -> Millisekunden) ---
     const intervalMs = this.updateInterval * 60 * 1000;
-    this.log.info(
-      `Updates geplant: alle ${this.updateInterval} Minuten (${intervalMs} ms)`,
-    );
+    this.log.info(`Updates geplant: alle ${this.updateInterval} Minuten (${intervalMs} ms)`);
     this._timer = this.setInterval(async () => {
       try {
         await this._updateAll();
       } catch (e) {
-        this.log.error(
-          `Periodischer Update-Lauf unerwartet fehlgeschlagen: ${e.stack || e.message}`,
-        );
+        this.log.error(`Periodischer Update-Lauf unerwartet fehlgeschlagen: ${e.stack || e.message}`);
       }
     }, intervalMs);
   }
@@ -183,9 +149,7 @@ class Waipu extends utils.Adapter {
   async updateStations() {
     try {
       const stations = await this.client.getStations();
-      const visible = stations.filter(
-        (s) => s.visible && !s.locked && !s.omitted,
-      );
+      const visible = stations.filter((s) => s.visible && !s.locked && !s.omitted);
 
       this._stationIds = [];
       this._stationIdMap.clear();
@@ -209,30 +173,24 @@ class Waipu extends utils.Adapter {
           },
         });
 
-        await this.setObjectNotExistsAsync(
-          `channels.${objId}.currentProgramStart`,
-          {
-            type: "state",
-            common: {
-              name: "Aktuelles Programm Beginn",
-              type: "number",
-              role: "value.time",
-            },
-            native: {},
+        await this.setObjectNotExistsAsync(`channels.${objId}.currentProgramStart`, {
+          type: "state",
+          common: {
+            name: "Aktuelles Programm Beginn",
+            type: "number",
+            role: "value.time",
           },
-        );
-        await this.setObjectNotExistsAsync(
-          `channels.${objId}.currentProgramStop`,
-          {
-            type: "state",
-            common: {
-              name: "Aktuelles Programm Ende",
-              type: "number",
-              role: "value.time",
-            },
-            native: {},
+          native: {},
+        });
+        await this.setObjectNotExistsAsync(`channels.${objId}.currentProgramStop`, {
+          type: "state",
+          common: {
+            name: "Aktuelles Programm Ende",
+            type: "number",
+            role: "value.time",
           },
-        );
+          native: {},
+        });
         // Objekte für die in updateEPG geschriebenen States (sonst Warnung "no existing object")
         await this.setObjectNotExistsAsync(`channels.${objId}.epg`, {
           type: "state",
@@ -280,11 +238,7 @@ class Waipu extends utils.Adapter {
       const start = new Date(now - EPG_LOOKBEHIND_MINUTES * 60 * 1000);
       const end = new Date(now + EPG_LOOKAHEAD_HOURS * 60 * 60 * 1000);
 
-      const programsByStation = await this.client.getProgramsInWindow(
-        this._stationIds,
-        start,
-        end,
-      );
+      const programsByStation = await this.client.getProgramsInWindow(this._stationIds, start, end);
 
       for (const sid of this._stationIds) {
         const objId = this._stationIdMap.get(sid);
@@ -292,9 +246,7 @@ class Waipu extends utils.Adapter {
           continue;
         }
 
-        const programs = (programsByStation[sid] || []).filter(
-          (p) => p && p.startTime && p.stopTime,
-        );
+        const programs = (programsByStation[sid] || []).filter((p) => p && p.startTime && p.stopTime);
 
         // EPG-JSON komplett setzen (mit Zeitstempel der Abfrage)
         await this.setStateAsync(
@@ -324,46 +276,22 @@ class Waipu extends utils.Adapter {
 
         if (current) {
           const title = current.title || current.name || "(unbenannt)";
-          await this.setStateAsync(
-            `channels.${objId}.currentProgram`,
-            title,
-            true,
-          );
+          await this.setStateAsync(`channels.${objId}.currentProgram`, title, true);
           await this.setStateAsync(
             `channels.${objId}.currentProgramStart`,
             new Date(current.startTime).getTime(),
             true,
           );
-          await this.setStateAsync(
-            `channels.${objId}.currentProgramStop`,
-            new Date(current.stopTime).getTime(),
-            true,
-          );
+          await this.setStateAsync(`channels.${objId}.currentProgramStop`, new Date(current.stopTime).getTime(), true);
         } else {
           const empty = "—";
-          await this.setStateAsync(
-            `channels.${objId}.currentProgram`,
-            empty,
-            true,
-          );
-          await this.setStateAsync(
-            `channels.${objId}.currentProgramStart`,
-            "",
-            true,
-          );
-          await this.setStateAsync(
-            `channels.${objId}.currentProgramStop`,
-            "",
-            true,
-          );
+          await this.setStateAsync(`channels.${objId}.currentProgram`, empty, true);
+          await this.setStateAsync(`channels.${objId}.currentProgramStart`, "", true);
+          await this.setStateAsync(`channels.${objId}.currentProgramStop`, "", true);
         }
 
         if (next) {
-          await this.setStateAsync(
-            `channels.${objId}.nextProgram`,
-            next.title || next.name || "(unbenannt)",
-            true,
-          );
+          await this.setStateAsync(`channels.${objId}.nextProgram`, next.title || next.name || "(unbenannt)", true);
         } else {
           await this.setStateAsync(`channels.${objId}.nextProgram`, "", true);
         }
@@ -392,11 +320,7 @@ class Waipu extends utils.Adapter {
         native: {},
       });
 
-      await this.setStateAsync(
-        "recordings.list",
-        JSON.stringify(recordings),
-        true,
-      );
+      await this.setStateAsync("recordings.list", JSON.stringify(recordings), true);
       await this.setStateAsync("recordings.count", recordings.length, true);
 
       for (const rec of recordings) {
@@ -441,26 +365,10 @@ class Waipu extends utils.Adapter {
 
         await this.setStateAsync(`${base}.title`, rec.title || "", true);
         await this.setStateAsync(`${base}.status`, rec.status || "", true);
-        await this.setStateAsync(
-          `${base}.stationDisplay`,
-          rec.stationDisplay || "",
-          true,
-        );
-        await this.setStateAsync(
-          `${base}.recordingStartTime`,
-          rec.recordingStartTime || "",
-          true,
-        );
-        await this.setStateAsync(
-          `${base}.durationSeconds`,
-          Number(rec.durationSeconds) || 0,
-          true,
-        );
-        await this.setStateAsync(
-          `${base}.epgStartTime`,
-          rec.epgStartTime || "",
-          true,
-        );
+        await this.setStateAsync(`${base}.stationDisplay`, rec.stationDisplay || "", true);
+        await this.setStateAsync(`${base}.recordingStartTime`, rec.recordingStartTime || "", true);
+        await this.setStateAsync(`${base}.durationSeconds`, Number(rec.durationSeconds) || 0, true);
+        await this.setStateAsync(`${base}.epgStartTime`, rec.epgStartTime || "", true);
       }
 
       this.log.debug(`Recordings aktualisiert: ${recordings.length}`);
@@ -483,13 +391,9 @@ class Waipu extends utils.Adapter {
     } else if (e instanceof WaipuPermissionError) {
       this.log.warn(`[${context}] PermissionError: ${e.message}`);
     } else if (e instanceof WaipuApiError) {
-      this.log.warn(
-        `[${context}] API-Fehler: ${e.message} (Retry beim nächsten Intervall)`,
-      );
+      this.log.warn(`[${context}] API-Fehler: ${e.message} (Retry beim nächsten Intervall)`);
     } else {
-      this.log.error(
-        `[${context}] Unerwarteter Fehler: ${e.stack || e.message}`,
-      );
+      this.log.error(`[${context}] Unerwarteter Fehler: ${e.stack || e.message}`);
     }
   }
 

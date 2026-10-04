@@ -4,9 +4,16 @@ updates:
     directory: "/"
     schedule:
       interval: weekly
+    cooldown:
+      default: 7
+    ignore:
+      - dependency-name: "@types/node"
+        update-types: ["version-update:semver-major"]
     target-branch: "main"
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
       interval: weekly
+    cooldown:
+      default: 7
     target-branch: "main"
