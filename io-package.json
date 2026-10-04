@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.8",
+    "version": "0.1.9",
     "news": {
       "0.1.0": {
         "en": "First public version: channels, EPG and recordings of waipu.tv",
@@ -93,6 +93,19 @@
         "pl": "Publish via npm-token in CI; provenance signed automatically (npm>=11.5).",
         "uk": "Publish via npm-token in CI; provenance signed automatically (npm>=11.5).",
         "zh-cn": "Publish via npm-token in CI; provenance signed automatically (npm>=11.5)."
+      },
+      "0.1.9": {
+        "en": "Publish via npm-token restored in CI.",
+        "de": "Veröffentlichung via npm-token in der CI wiederhergestellt.",
+        "ru": "Публикация через npm-token восстановлена в CI.",
+        "pt": "Publicação via npm-token restaurada na CI.",
+        "nl": "Publicatie via npm-token hersteld in CI.",
+        "fr": "Publication via npm-token restaurée dans la CI.",
+        "it": "Pubblicazione via npm-token ripristinata nella CI.",
+        "es": "Publicación vía npm-token restaurada en CI.",
+        "pl": "Publikacja przez npm-token przywrócona w CI.",
+        "uk": "Публікацію через npm-token відновлено в CI.",
+        "zh-cn": "CI 中恢复了通过 npm-token 发布。"
       }
     },
     "titleLang": {
