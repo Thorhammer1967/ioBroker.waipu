@@ -65,8 +65,8 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 
 ## Changelog
 
-### 0.1.31
-- Object structure fixes: read/write flags, device containers, valid roles (E1003/E1008/E3009).
+### 0.1.32
+- States re-created on start (setObject) so read/write flags and roles are corrected on existing installations.
 ### 0.1.28
 - Checker fixes: full news translations, changelog link, token-free trusted publishing.
 ### 0.1.27

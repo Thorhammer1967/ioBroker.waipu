@@ -1,20 +1,20 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.31",
+    "version": "0.1.32",
     "news": {
-      "0.1.31": {
-        "en": "Object structure fixes: read/write flags, device containers, valid roles (E1003/E1008/E3009).",
-        "de": "Objektstruktur-Fixes: read/write-Flags, Geräte-Container, gültige Rollen (E1003/E1008/E3009).",
-        "ru": "Исправления структуры объектов: флаги read/write, контейнеры устройств, корректные роли (E1003/E1008/E3009).",
-        "pt": "Correções de estrutura de objetos: sinalizadores read/write, contentores de dispositivos, funções válidas (E1003/E1008/E3009).",
-        "nl": "Objectstructuur-fixes: read/write-vlaggen, apparaatcontainers, geldige rollen (E1003/E1008/E3009).",
-        "fr": "Correctifs de structure d'objets : indicateurs read/write, conteneurs de périphériques, rôles valides (E1003/E1008/E3009).",
-        "it": "Correzioni alla struttura degli oggetti: flag read/write, contenitori di dispositivi, ruoli validi (E1003/E1008/E3009).",
-        "es": "Correcciones de estructura de objetos: indicadores read/write, contenedores de dispositivos, roles válidos (E1003/E1008/E3009).",
-        "pl": "Poprawki struktury obiektów: flagi read/write, kontenery urządzeń, poprawne role (E1003/E1008/E3009).",
-        "uk": "Виправлення структури об'єктів: прапорці read/write, контейнери пристроїв, коректні ролі (E1003/E1008/E3009).",
-        "zh-cn": "对象结构修复：读写标志、设备容器、有效角色 (E1003/E1008/E3009)。"
+      "0.1.32": {
+        "en": "States now re-created on start (setObject) so read/write flags and roles are corrected on existing installations.",
+        "de": "States werden beim Start neu angelegt (setObject), damit read/write-Flags und Rollen auch auf bestehenden Installationen korrigiert werden.",
+        "ru": "Состояния теперь пересоздаются при старте (setObject), чтобы флаги read/write и роли исправлялись и на существующих установках.",
+        "pt": "Os estados agora são recriados no arranque (setObject) para que os sinalizadores read/write e as funções sejam corrigidos também nas instalações existentes.",
+        "nl": "States worden nu bij het starten opnieuw aangemaakt (setObject), zodat read/write-vlaggen en rollen ook op bestaande installaties worden gecorrigeerd.",
+        "fr": "Les états sont désormais recréés au démarrage (setObject) afin que les indicateurs read/write et les rôles soient corrigés aussi sur les installations existantes.",
+        "it": "Gli stati vengono ora ricreati all'avvio (setObject) affinché i flag read/write e i ruoli vengano corretti anche sulle installazioni esistenti.",
+        "es": "Los estados ahora se recrean al arrancar (setObject) para que los indicadores read/write y los roles se corrijan también en las instalaciones existentes.",
+        "pl": "Stany są teraz odtwarzane przy starcie (setObject), aby flagi read/write i role były korygowane również na istniejących instalacjach.",
+        "uk": "Стан тепер перестворюється під час запуску (setObject), щоб прапорці read/write та ролі виправлялися й на наявних інсталяціях.",
+        "zh-cn": "状态现在在启动时重建 (setObject)，以便读写标志和角色也能在现有安装上得到纠正。"
       },
       "0.1.28": {
         "en": "Checker fixes: full news translations, changelog link and token-free trusted publishing.",

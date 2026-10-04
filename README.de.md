@@ -65,8 +65,8 @@ Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu*
 
 ## Changelog
 
-### 0.1.31
-- Objektstruktur-Fixes: read/write-Flags, Geräte-Container, gültige Rollen (E1003/E1008/E3009).
+### 0.1.32
+- States werden beim Start neu angelegt (setObject), damit read/write-Flags und Rollen auch auf bestehenden Installationen korrigiert werden.
 ### 0.1.28
 - Checker-Fixes: vollständige News-Übersetzungen, Changelog-Link, Trusted Publishing ohne Token.
 ### 0.1.27
