@@ -1,21 +1,8 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.18",
+    "version": "0.1.19",
     "news": {
-      "0.1.11": {
-        "en": "README changelog completed.",
-        "de": "README-Änderungsliste vervollständigt.",
-        "ru": "Список изменений README дополнен.",
-        "pt": "Changelog do README concluído.",
-        "nl": "README changelog voltooid.",
-        "fr": "Journal des modifications du README complété.",
-        "it": "Changelog del README completato.",
-        "es": "Changelog del README completado.",
-        "pl": "Dopełniono README change log.",
-        "uk": "Історію змін README доповнено.",
-        "zh-cn": "README 更新日志已完成。"
-      },
       "0.1.12": {
         "en": "Changelog entry for 0.1.11 added.",
         "de": "Änderungseintrag für 0.1.11 ergänzt.",
@@ -93,6 +80,19 @@
         "pl": "Dodano uprawnienie id-token write dla zaufanego publikowania.",
         "uk": "Додано право id-token write для довіреного публікування.",
         "zh-cn": "为可信发布添加了 id-token 写权限。"
+      },
+      "0.1.19": {
+        "en": "Reliable publish via npm-token re-enabled.",
+        "de": "Zuverlässige Veröffentlichung via npm-token wieder aktiviert.",
+        "ru": "Надежная публикация через npm-token снова включена.",
+        "pt": "Publicação confiável via npm-token reativada.",
+        "nl": "Betrouwbare publicatie via npm-token weer ingeschakeld.",
+        "fr": "Publication fiable via npm-token réactivée.",
+        "it": "Pubblicazione affidabile tramite npm-token riabilitata.",
+        "es": "Publicación confiable vía npm-token reactivada.",
+        "pl": "Niezawodna publikacja przez npm-token ponownie włączona.",
+        "uk": "Надійну публікацію через npm-token знову увімкнено.",
+        "zh-cn": "重新启用了通过 npm-token 的可靠发布。"
       }
     },
     "titleLang": {

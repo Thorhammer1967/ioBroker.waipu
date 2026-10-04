@@ -65,6 +65,8 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 
 ## Changelog
 
+### 0.1.19
+- Reliable publish via npm-token re-enabled.
 ### 0.1.18
 - id-token write permission added for trusted publishing.
 ### 0.1.17
