@@ -72,6 +72,8 @@ jobs:
     permissions:
       contents: write
       id-token: write
+    env:
+      npm_config_provenance: 'true'
 
     steps:
       - uses: ioBroker/testing-action-deploy@v1
