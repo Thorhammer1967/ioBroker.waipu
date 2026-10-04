@@ -72,6 +72,6 @@ Older entries: [CHANGELOG_OLD.md](CHANGELOG_OLD.md)
 
 ## License
 
-MIT
+MIT — full text: [LICENSE](LICENSE).
 
 Copyright (c) 2026 Thorhammer1967 <junk-alles@t-online.de>
