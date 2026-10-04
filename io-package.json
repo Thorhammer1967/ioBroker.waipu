@@ -1,11 +1,11 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.26",
+    "version": "0.1.27",
     "news": {
-      "0.1.26": {
-        "en": "Trusted publishing retry aligned with ioBroker standard workflow.",
-        "de": "Veröffentlichungs-Wiederholung nach ioBroker-Standardmuster."
+      "0.1.27": {
+        "en": "Publish switched back to the proven npm token flow.",
+        "de": "Veröffentlichung wieder über den bewährten npm-Token-Weg."
       },
       "0.1.20": {
         "en": "News window trimmed.",

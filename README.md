@@ -65,12 +65,10 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 
 ## Changelog
 
-### 0.1.26
-- Publish retry aligned with the standard ioBroker deploy workflow.
+### 0.1.27
+- Publish switched back to the proven npm token flow.
 ### 0.1.25
 - npm publish via environment pinning (release).
-### 0.1.25
-- npm-Veröffentlichung über Environment-Pinning (release).
 ### 0.1.24
 - Trusted publishing fully configured; publish now with environment pinning.
 ### 0.1.23

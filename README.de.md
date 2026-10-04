@@ -65,10 +65,8 @@ Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu*
 
 ## Changelog
 
-### 0.1.26
-- Veröffentlichungsversuch nach ioBroker-Standard-Workflow.
-### 0.1.25
-- npm publish via environment pinning (release).
+### 0.1.27
+- Veröffentlichung wieder über den bewährten npm-Token-Weg.
 ### 0.1.25
 - npm-Veröffentlichung über Environment-Pinning (release).
 ### 0.1.24
