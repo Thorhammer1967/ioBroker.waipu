@@ -78,7 +78,6 @@ jobs:
         run: |
           npm config set registry https://registry.npmjs.org/
           npm config set provenance true
-          npm whoami --registry https://registry.npmjs.org/ || true
       - uses: ioBroker/testing-action-deploy@v1
         with:
           node-version: '24.x'
