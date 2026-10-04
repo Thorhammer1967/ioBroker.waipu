@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.23",
+    "version": "0.1.24",
     "news": {
       "0.1.12": {
         "en": "Changelog completed.",
@@ -93,6 +93,19 @@
         "pl": "Publikacja przez trusted publishing (OIDC GitHub Actions) z atestem provenance.",
         "uk": "Публікація через trusted publishing (OIDC GitHub Actions) з підтвердженням походження npm.",
         "zh-cn": "通过可信发布（GitHub Actions OIDC）发布并附带 npm 来源签名。"
+      },
+      "0.1.24": {
+        "en": "Trusted publishing: npm-side repository binding complete.",
+        "de": "Trusted Publishing: npm-seitige Repository-Anbindung fertig.",
+        "ru": "Доверенный публикация: привязка репозитория на стороне npm завершена.",
+        "pt": "Publicação confiável: vínculo de repositório no lado npm concluído.",
+        "nl": "Vertrouwd publiceren: npm-side repositorybinding voltooid.",
+        "fr": "Publication de confiance : liaison du dépôt côté npm terminée.",
+        "it": "Pubblicazione attendibile: collegamento repository lato npm completato.",
+        "es": "Publicación confiable: vinculación del repositorio en npm completada.",
+        "pl": "Zaufane publikowanie: powiązanie repozytorium po stronie npm ukończone.",
+        "uk": "Довірена публікація: зв'язування репозиторію на боці npm завершено.",
+        "zh-cn": "可信发布：npm 侧的仓库绑定完成。"
       }
     },
     "titleLang": {

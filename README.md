@@ -64,13 +64,11 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 - No liability for damage or outages
 
 ## Changelog
-### 0.1.21
-- Trusted publishing: npm-token removed from deploy workflow.
 
+### 0.1.23
+- Publishing via trusted publishing (GitHub Actions OIDC), npm provenance.
 ### 0.1.20
 - News window trimmed to 7 entries.
-### 0.1.22
-- Test release for trusted publishing pipeline.
 ### 0.1.19
 - README changelog completed (0.1.11 released from CI).
 ### 0.1.15
@@ -90,9 +88,9 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 ### 0.1.5
 - npm provenance activated.
 ### 0.1.4
-- Release v0.1.3 removed (never released); versions cleaned up.
+- Release 0.1.3 removed (never released); versions cleaned up.
 ### 0.1.2
-- Release-Automation enabled.
+- Release automation enabled.
 ### 0.1.0
 - First public version: channels, EPG, recordings.
 

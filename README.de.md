@@ -64,50 +64,35 @@ Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu*
 - Keine Haftung für Schäden oder Ausfälle
 
 ## Changelog
-### 0.1.21
-- Trusted Publishing: npm-token aus dem Release-Workflow entfernt.
 
+### 0.1.23
+- Veröffentlichung über Trusted Publishing (GitHub-Actions-OIDC), npm-Prüfsignatur.
 ### 0.1.20
 - News-Fenster auf 7 Einträge gekürzt.
-
-### 0.1.22
-- Test-Release für die Trusted-Publishing-Pipeline.
 ### 0.1.19
-- README-Änderungsliste vervollständigt (0.1.11 aus der CI).
-
+- README-Änderungsliste vervollständigt (0.1.11 aus der CI veröffentlicht).
 ### 0.1.15
 - Änderungsliste 0.1.10 ergänzt; 0.1.11 entfernt (nie auf npm).
-
 ### 0.1.14
 - News exakt auf 7 gekürzt.
-
 ### 0.1.13
 - Änderungsliste 0.1.9 ergänzt.
-
 ### 0.1.12
 - Änderungsliste 0.1.11 ergänzt.
-
 ### 0.1.11
 - README-Änderungsliste vervollständigt.
-
 ### 0.1.10
 - News-Einträge an veröffentlichte npm-Versionen angeglichen.
-
 ### 0.1.9
 - Neuprüfung aus der CI ausgelöst.
-
 ### 0.1.5
 - npm-Prüfsignatur (Provenance) aktiviert.
-
 ### 0.1.4
 - Version 0.1.3 entfernt (nie erschienen); Versionen aufgeräumt.
-
 ### 0.1.2
 - Release-Automatisierung aktiviert.
-
 ### 0.1.0
 - Erste öffentliche Version: Sender, EPG, Aufnahmen.
-
 
 ## Lizenz
 
