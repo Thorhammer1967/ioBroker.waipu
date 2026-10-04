@@ -65,6 +65,12 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 
 ## Changelog
 
+### 0.1.6
+- Trusted publishing cleaned (npm-token removed).
+### 0.1.7
+- Debug step removed.
+### 0.1.8
+- Publish via npm-token in CI; provenance signed automatically.
 ### 0.1.5
 - Fixed trusted publishing (removed npm-token); release signed with provenance.
 

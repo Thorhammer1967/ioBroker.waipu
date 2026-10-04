@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.7",
+    "version": "0.1.8",
     "news": {
       "0.1.0": {
         "en": "First public version: channels, EPG and recordings of waipu.tv",
@@ -54,6 +54,45 @@
         "pl": "Poprawiono zaufane publikowanie (usunięto npm-token); wydanie podpisane provenance.",
         "uk": "Виправлено довірений публікування (npm-token вилучено); реліз підписано provenance.",
         "zh-cn": "修复可信发布（已移除 npm-token）；发布版本已添加出处签名。"
+      },
+      "0.1.6": {
+        "en": "Trusted publishing cleaned (npm-token removed).",
+        "de": "Trusted Publishing bereinigt (npm-token entfernt).",
+        "ru": "Trusted publishing cleaned (npm-token removed).",
+        "pt": "Trusted publishing cleaned (npm-token removed).",
+        "nl": "Trusted publishing cleaned (npm-token removed).",
+        "fr": "Trusted publishing cleaned (npm-token removed).",
+        "it": "Trusted publishing cleaned (npm-token removed).",
+        "es": "Trusted publishing cleaned (npm-token removed).",
+        "pl": "Trusted publishing cleaned (npm-token removed).",
+        "uk": "Trusted publishing cleaned (npm-token removed).",
+        "zh-cn": "Trusted publishing cleaned (npm-token removed)."
+      },
+      "0.1.7": {
+        "en": "Debug step removed.",
+        "de": "Debugschritt entfernt.",
+        "ru": "Debug step removed.",
+        "pt": "Debug step removed.",
+        "nl": "Debug step removed.",
+        "fr": "Debug step removed.",
+        "it": "Debug step removed.",
+        "es": "Debug step removed.",
+        "pl": "Debug step removed.",
+        "uk": "Debug step removed.",
+        "zh-cn": "Debug step removed."
+      },
+      "0.1.8": {
+        "en": "Publish via npm-token in CI (provenance signed automatically by npm>=11.5).",
+        "de": "Veröffentlichung via npm-token in der CI (Prüfsignatur automatisch ab npm 11.5).",
+        "ru": "Publish via npm-token in CI; provenance signed automatically (npm>=11.5).",
+        "pt": "Publish via npm-token in CI; provenance signed automatically (npm>=11.5).",
+        "nl": "Publish via npm-token in CI; provenance signed automatically (npm>=11.5).",
+        "fr": "Publish via npm-token in CI; provenance signed automatically (npm>=11.5).",
+        "it": "Publish via npm-token in CI; provenance signed automatically (npm>=11.5).",
+        "es": "Publish via npm-token in CI; provenance signed automatically (npm>=11.5).",
+        "pl": "Publish via npm-token in CI; provenance signed automatically (npm>=11.5).",
+        "uk": "Publish via npm-token in CI; provenance signed automatically (npm>=11.5).",
+        "zh-cn": "Publish via npm-token in CI; provenance signed automatically (npm>=11.5)."
       }
     },
     "titleLang": {

@@ -65,6 +65,12 @@ Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu*
 
 ## Changelog
 
+### 0.1.6
+- Trusted publishing cleaned (npm-token removed).
+### 0.1.7
+- Debug step removed.
+### 0.1.8
+- Publish via npm-token in CI; provenance signed automatically.
 ### 0.1.5
 - Vertrauenswürdiges Veröffentlichen korrigiert (npm-token entfernt); Release mit Prüfsignatur.
 
