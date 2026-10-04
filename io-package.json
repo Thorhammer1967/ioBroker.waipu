@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "news": {
       "0.1.0": {
         "en": "First public version: channels, EPG and recordings of waipu.tv",
@@ -28,6 +28,19 @@
         "pl": "Wydanie poprawkowe: końcowe formatowanie, link do licencji. Opublikowano z pochodzeniem.",
         "uk": "Виправлення: фінальне форматування, посилання на ліцензію. Опубліковано з провенансом.",
         "zh-cn": "错误修复版本：最终格式化，添加许可证链接。带来源发布。"
+      },
+      "0.1.2": {
+        "en": "Release automation enabled (deploy via trusted publishing).",
+        "de": "Release-Automatisierung aktiviert (vertrauenswürdiges Veröffentlichen).",
+        "ru": "Автоматизация релизов включена (trusted publishing).",
+        "pt": "Automação de release ativada (publicação confiável).",
+        "nl": "Release-automatisering ingeschakeld (trusted publishing).",
+        "fr": "Automatisation des versions activée (publication de confiance).",
+        "it": "Automazione release attivata (publishing affidabile).",
+        "es": "Automatización de releases activada (publicación de confianza).",
+        "pl": "Automatyzacja wydań włączona (zaufane publikowanie).",
+        "uk": "Автоматизація релізів увімкнута (trusted publishing).",
+        "zh-cn": "发布自动化已启用（可信发布）。"
       }
     },
     "titleLang": {
