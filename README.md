@@ -65,12 +65,22 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 
 ## Changelog
 
+### 0.1.25
+- npm publish via environment pinning (release).
+### 0.1.25
+- npm-Veröffentlichung über Environment-Pinning (release).
+### 0.1.24
+- Trusted publishing fully configured; publish now with environment pinning.
 ### 0.1.23
-- Publishing via trusted publishing (GitHub Actions OIDC), npm provenance.
+- OIDC login verified; publish attempt after npm configuration.
+### 0.1.22
+- Trusted publishing configured at npm.
+### 0.1.21
+- Repository URL pinned to final location.
 ### 0.1.20
 - News window trimmed to 7 entries.
 ### 0.1.19
-- README changelog completed (0.1.11 released from CI).
+- Re-check triggered from CI.
 ### 0.1.15
 - Changelog 0.1.10 completed; 0.1.11 removed (never on npm).
 ### 0.1.14
@@ -88,9 +98,9 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 ### 0.1.5
 - npm provenance activated.
 ### 0.1.4
-- Release 0.1.3 removed (never released); versions cleaned up.
+- Release v0.1.3 removed (never released); versions cleaned up.
 ### 0.1.2
-- Release automation enabled.
+- Release-Automation enabled.
 ### 0.1.0
 - First public version: channels, EPG, recordings.
 

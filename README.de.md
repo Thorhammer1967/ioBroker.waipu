@@ -65,12 +65,22 @@ Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu*
 
 ## Changelog
 
+### 0.1.25
+- npm publish via environment pinning (release).
+### 0.1.25
+- npm-Veröffentlichung über Environment-Pinning (release).
+### 0.1.24
+- Trusted Publishing vollständig konfiguriert; Veröffentlichung mit Environment-Pinning.
 ### 0.1.23
-- Veröffentlichung über Trusted Publishing (GitHub-Actions-OIDC), npm-Prüfsignatur.
+- OIDC-Anmeldung geprüft; Veröffentlichungsversuch nach npm-Konfiguration.
+### 0.1.22
+- Trusted Publishing bei npm konfiguriert.
+### 0.1.21
+- Repository-URL auf endgültige Adresse gesetzt.
 ### 0.1.20
 - News-Fenster auf 7 Einträge gekürzt.
 ### 0.1.19
-- README-Änderungsliste vervollständigt (0.1.11 aus der CI veröffentlicht).
+- Neuprüfung aus der CI ausgelöst.
 ### 0.1.15
 - Änderungsliste 0.1.10 ergänzt; 0.1.11 entfernt (nie auf npm).
 ### 0.1.14
