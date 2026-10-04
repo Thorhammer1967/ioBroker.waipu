@@ -65,6 +65,8 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 
 ## Changelog
 
+### 0.1.14
+- Changelog re-sorted, news pruned to npm versions.
 ### 0.1.13
 - News entries limited to published npm versions.
 
@@ -91,6 +93,8 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 
 ### 0.1.0
 - First public version: channel list, EPG, current program, cloud recordings, login + token rotation.
+
+Older entries: [CHANGELOG_OLD.md](CHANGELOG_OLD.md)
 
 ## License
 

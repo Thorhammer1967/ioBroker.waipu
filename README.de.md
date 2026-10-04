@@ -65,6 +65,8 @@ Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu*
 
 ## Changelog
 
+### 0.1.14
+- Changelog neu sortiert, News auf npm-Versionen begrenzt.
 ### 0.1.13
 - News-Einträge auf veröffentlichte npm-Versionen beschränkt.
 

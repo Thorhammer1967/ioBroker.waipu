@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.14",
+    "version": "0.1.15",
     "news": {
       "0.1.9": {
         "en": "Publish via npm-token restored in CI.",
@@ -68,19 +68,6 @@
         "uk": "Записи news обмежено опублікованими версіями.",
         "zh-cn": "news 条目仅限于已发布的版本。"
       },
-      "0.1.4": {
-        "en": "Release automation enabled (npm-token publish).",
-        "de": "Release-Automatisierung aktiviert (Publish via npm-token).",
-        "ru": "Автоматизация релизов включена (publish по npm-token).",
-        "pt": "Automação de release ativada (publicação via npm-token).",
-        "nl": "Release-automatisering ingeschakeld (publiceren via npm-token).",
-        "fr": "Automatisation des versions activée (publication via npm-token).",
-        "it": "Automazione release attivata (pubblicazione tramite npm-token).",
-        "es": "Automatización de releases activada (publicación vía npm-token).",
-        "pl": "Automatyzacja wydań włączona (publikacja przez npm-token).",
-        "uk": "Автоматизацію релізів увімкнено (публікація через npm-token).",
-        "zh-cn": "已启用发布自动化（通过 npm-token 发布）。"
-      },
       "0.1.5": {
         "en": "Trusted publishing configured; release signed with provenance.",
         "de": "Vertrauenswürdiges Veröffentlichen konfiguriert; Release mit Prüfsignatur.",
@@ -106,6 +93,19 @@
         "pl": "Changelog posortowany, news ograniczone do wersji npm.",
         "uk": "Changelog перевпорядковано, news обмежено версіями npm.",
         "zh-cn": "更新日志已重新排序，news 限于 npm 版本。"
+      },
+      "0.1.15": {
+        "en": "Changelog 0.1.14 added, news limited to 7.",
+        "de": "Changelog 0.1.14 ergänzt, News auf 7 begrenzt.",
+        "ru": "Добавлена запись изменений 0.1.14, news ограничены 7.",
+        "pt": "Entrada 0.1.14 adicionada, news limitada a 7.",
+        "nl": "Changelog 0.1.14 toegevoegd, news beperkt tot 7.",
+        "fr": "Entrée de changelog 0.1.14 ajoutée, news limitées à 7.",
+        "it": "Voce changelog 0.1.14 aggiunta, news limitate a 7.",
+        "es": "Entrada de changelog 0.1.14 agregada, news limitadas a 7.",
+        "pl": "Dodano wpis changelog 0.1.14, news ograniczone do 7.",
+        "uk": "Додано запис змін 0.1.14, news обмежено 7.",
+        "zh-cn": "已添加 0.1.14 的日志条目，news 限于 7 条。"
       }
     },
     "titleLang": {
