@@ -1,0 +1,11 @@
+node_modules/
+*.log
+.idea/
+.vscode/
+*.tgz
+.commitinfo
+test_*.js
+test.sh
+setup.js
+encrypt_waipu_config.js
+*.bak

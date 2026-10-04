@@ -5,35 +5,58 @@
     "news": {
       "0.1.0": {
         "en": "First public version: channels, EPG and recordings of waipu.tv",
-        "de": "Erste öffentliche Version: Sender, EPG und Aufnahmen von waipu.tv"
+        "de": "Erste öffentliche Version: Sender, EPG und Aufnahmen von waipu.tv",
+        "ru": "Первая публичная версия: каналы, EPG и записи waipu.tv",
+        "pt": "Primeira versão pública: canais, EPG e gravações da waipu.tv",
+        "nl": "Eerste publieke versie: zenders, EPG en opnames van waipu.tv",
+        "fr": "Première version publique : chaînes, EPG et enregistrements waipu.tv",
+        "it": "Prima versione pubblica: canali, EPG e registrazioni di waipu.tv",
+        "es": "Primera versión pública: canales, EPG y grabaciones de waipu.tv",
+        "pl": "Pierwsza publiczna wersja: kanały, EPG i nagrania waipu.tv",
+        "uk": "Перша публічна версія: канали, EPG та записи waipu.tv",
+        "zh-cn": "首个公开版本：waipu.tv 的频道、EPG 和录像"
       }
     },
-    "title": "waipu.tv",
     "titleLang": {
       "en": "waipu.tv",
-      "de": "waipu.tv"
+      "de": "waipu.tv",
+      "ru": "waipu.tv",
+      "pt": "waipu.tv",
+      "nl": "waipu.tv",
+      "fr": "waipu.tv",
+      "it": "waipu.tv",
+      "es": "waipu.tv",
+      "pl": "waipu.tv",
+      "uk": "waipu.tv",
+      "zh-cn": "waipu.tv"
     },
     "desc": {
-      "en": "Integrates waipu.tv into ioBroker (channels, EPG, recordings)",
-      "de": "Bindet waipu.tv in ioBroker ein (Sender, EPG, Aufnahmen)"
+      "en": "Integrates waipu.tv into ioBroker: channels, EPG and cloud recordings",
+      "de": "Integriert waipu.tv in ioBroker: Sender, EPG und Cloud-Aufnahmen",
+      "ru": "Интегрирует waipu.tv в ioBroker: каналы, EPG и облачные записи",
+      "pt": "Integra waipu.tv no ioBroker: canais, EPG e gravações em nuvem",
+      "nl": "Integreert waipu.tv in ioBroker: zenders, EPG en cloud-opnames",
+      "fr": "Intègre waipu.tv dans ioBroker : chaînes, EPG et enregistrements cloud",
+      "it": "Integra waipu.tv in ioBroker: canali, EPG e registrazioni cloud",
+      "es": "Integra waipu.tv en ioBroker: canales, EPG y grabaciones en la nube",
+      "pl": "Integruje waipu.tv w ioBroker: kanały, EPG i nagrania w chmurze",
+      "uk": "Інтегрує waipu.tv в ioBroker: канали, EPG та хмарні записи",
+      "zh-cn": "将 waipu.tv 集成到 ioBroker：频道、电子节目指南和云端录像"
     },
     "authors": [
-      "Thorhammer1967"
+      "Thorhammer1967 <junk-alles@t-online.de>"
     ],
-    "license": "MIT",
     "type": "multimedia",
     "platform": "Javascript/Node.js",
     "mode": "daemon",
-    "compactSupported": false,
     "connectionType": "cloud",
     "dataSource": "poll",
-    "materialize": true,
     "adminUI": {
       "config": "json"
     },
     "dependencies": [
       {
-        "js-controller": ">=3.3.0"
+        "js-controller": ">=6.0.11"
       }
     ],
     "encryptedNative": [
@@ -48,12 +71,24 @@
     ],
     "globalDependencies": [
       {
-        "admin": ">=4.0.9"
+        "admin": ">=7.6.17"
       }
     ],
-    "main": "main.js",
-    "icon": "admin/waipu.png",
-    "extIcon": "https://raw.githubusercontent.com/Thorhammer1967/ioBroker.waipu/main/admin/waipu.png"
+    "icon": "waipu.png",
+    "extIcon": "https://raw.githubusercontent.com/Thorhammer1967/ioBroker.waipu/main/admin/waipu.png",
+    "tier": 2,
+    "licenseInformation": {
+      "license": "MIT",
+      "type": "free"
+    },
+    "keywords": [
+      "waipu",
+      "tv",
+      "epg",
+      "recording",
+      "dvr",
+      "television"
+    ]
   },
   "native": {
     "username": "",
@@ -71,12 +106,22 @@
       "common": {
         "name": "connection",
         "type": "boolean",
-        "role": "indicator.connection",
+        "role": "indicator.connected",
         "read": true,
         "write": false,
         "def": false
       },
       "native": {}
     }
+  ],
+  "encryptedNative": [
+    "password",
+    "accessToken",
+    "refreshToken"
+  ],
+  "protectedNative": [
+    "password",
+    "accessToken",
+    "refreshToken"
   ]
 }

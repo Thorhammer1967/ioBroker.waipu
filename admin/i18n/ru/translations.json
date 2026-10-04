@@ -1,0 +1,12 @@
+{
+  "username": "waipu.tv e-mail",
+  "password": "пароль waipu.tv",
+  "updateInterval": "Интервал обновления (мин)",
+  "deviceId": "ID устройства (создаётся автоматически)",
+  "accessToken": "Токен доступа (авто, от waipu.tv)",
+  "refreshToken": "Токен обновления (авто, от waipu.tv)",
+  "restPort": "Порт REST API (приложение Android TV)",
+  "restApiKey": "Ключ REST API (необязательно, общий секрет для TV-приложения)",
+  "wlUser": "E-mail wunschliste.de (для списка, необязательно)",
+  "wlPw": "Пароль wunschliste.de (для списка, необязательно)"
+}

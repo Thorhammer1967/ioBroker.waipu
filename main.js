@@ -6,7 +6,7 @@
  */
 
 const utils = require('@iobroker/adapter-core');
-const crypto = require('crypto');
+const crypto = require('node:crypto');
 const {
     WaipuClient,
     WaipuApiError,
