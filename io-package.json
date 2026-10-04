@@ -1,35 +1,98 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.27",
+    "version": "0.1.28",
     "news": {
+      "0.1.28": {
+        "en": "Checker fixes: full news translations, changelog link and token-free trusted publishing.",
+        "de": "Checker-Fixes: vollständige News-Übersetzungen, Changelog-Link und Trusted Publishing ohne Token.",
+        "ru": "Исправления для проверки: полные переводы новостей, ссылка на список изменений, доверенная публикация без токена.",
+        "pt": "Correções do verificador: traduções completas das novidades, ligação ao registo de alterações e publicação confiável sem token.",
+        "nl": "Checker-fixes: volledige nieuwsvertalingen, changelog-link en trusted publishing zonder token.",
+        "fr": "Corrections du vérificateur : traductions complètes des actualités, lien du journal des modifications et publication de confiance sans jeton.",
+        "it": "Correzioni del checker: traduzioni complete delle notizie, link al changelog e pubblicazione attendibile senza token.",
+        "es": "Correcciones del verificador: traducciones completas de novedades, enlace al registro de cambios y publicación confiable sin token.",
+        "pl": "Poprawki kontrolera: pełne tłumaczenia nowości, link do listy zmian i zaufana publikacja bez tokenu.",
+        "uk": "Виправлення для перевірки: повні переклади новин, посилання на список змін і довірена публікація без токена.",
+        "zh-cn": "检查器修复：完整的新闻翻译、变更日志链接以及免令牌的可信发布。"
+      },
       "0.1.27": {
         "en": "Publish switched back to the proven npm token flow.",
-        "de": "Veröffentlichung wieder über den bewährten npm-Token-Weg."
+        "de": "Veröffentlichung wieder über den bewährten npm-Token-Weg.",
+        "ru": "Публикация снова выполняется через проверенный поток с npm-токеном.",
+        "pt": "Publicação voltou a usar o fluxo comprovado com token npm.",
+        "nl": "Publicatie weer via het bewezen npm-tokenproces.",
+        "fr": "Publication de nouveau via le flux éprouvé du jeton npm.",
+        "it": "Pubblicazione di nuovo tramite il percorso collaudato del token npm.",
+        "es": "Publicación de nuevo mediante el flujo probado con token de npm.",
+        "pl": "Publikacja ponownie za pomocą sprawdzonego przepływu tokenu npm.",
+        "uk": "Публікація знову через перевірений потік із npm-токеном.",
+        "zh-cn": "发布重新改回已验证的 npm 令牌流程。"
       },
       "0.1.20": {
         "en": "News window trimmed.",
-        "de": "News-Fenster gekürzt."
+        "de": "News-Fenster gekürzt.",
+        "ru": "Список новостей сокращён.",
+        "pt": "Janela de novidades reduzida.",
+        "nl": "Nieuwsvenster ingekort.",
+        "fr": "Fenêtre des actualités réduite.",
+        "it": "Finestra delle notizie ridotta.",
+        "es": "Ventana de novedades reducida.",
+        "pl": "Okno nowości skrócone.",
+        "uk": "Перелік новин скорочено.",
+        "zh-cn": "新闻列表已精简。"
       },
       "0.1.19": {
         "en": "Re-check from CI.",
-        "de": "Neuprüfung aus der CI."
+        "de": "Neuprüfung aus der CI.",
+        "ru": "Повторная проверка из CI.",
+        "pt": "Nova verificação pela CI.",
+        "nl": "Hercontrole vanuit de CI.",
+        "fr": "Nouvelle vérification depuis la CI.",
+        "it": "Riverifica dalla CI.",
+        "es": "Nueva comprobación desde CI.",
+        "pl": "Ponowne sprawdzenie z CI.",
+        "uk": "Повторна перевірка з CI.",
+        "zh-cn": "从 CI 重新检查。"
       },
       "0.1.15": {
         "en": "Changelog housekeeping.",
-        "de": "Änderungslisten-Pflege."
+        "de": "Änderungslisten-Pflege.",
+        "ru": "Наведение порядка в списке изменений.",
+        "pt": "Organização do registo de alterações.",
+        "nl": "Opkuisen van de changelog.",
+        "fr": "Mise en ordre du journal des modifications.",
+        "it": "Riordino del changelog.",
+        "es": "Orden del registro de cambios.",
+        "pl": "Porządkowanie listy zmian.",
+        "uk": "Упорядкування списку змін.",
+        "zh-cn": "整理变更日志。"
       },
       "0.1.14": {
         "en": "News trimmed to 7.",
-        "de": "News auf 7 gekürzt."
+        "de": "News auf 7 gekürzt.",
+        "ru": "Новости сокращены до 7.",
+        "pt": "Novidades reduzidas a 7.",
+        "nl": "Nieuws teruggebracht tot 7.",
+        "fr": "Actualités réduites à 7.",
+        "it": "Notizie ridotte a 7.",
+        "es": "Novedades reducidas a 7.",
+        "pl": "Nowości skrócono do 7.",
+        "uk": "Новини скорочено до 7.",
+        "zh-cn": "新闻精简为 7 条。"
       },
       "0.1.13": {
         "en": "Changelog 0.1.9 added.",
-        "de": "Änderungsliste 0.1.9 ergänzt."
-      },
-      "0.1.12": {
-        "en": "Changelog 0.1.11 completed.",
-        "de": "Änderungsliste 0.1.11 ergänzt."
+        "de": "Änderungsliste 0.1.9 ergänzt.",
+        "ru": "Добавлен список изменений 0.1.9.",
+        "pt": "Registo de alterações 0.1.9 adicionado.",
+        "nl": "Changelog 0.1.9 toegevoegd.",
+        "fr": "Journal des modifications 0.1.9 ajouté.",
+        "it": "Aggiunto changelog 0.1.9.",
+        "es": "Registro de cambios 0.1.9 añadido.",
+        "pl": "Dodano listę zmian 0.1.9.",
+        "uk": "Додано список змін 0.1.9.",
+        "zh-cn": "新增 0.1.9 的变更记录。"
       }
     },
     "titleLang": {

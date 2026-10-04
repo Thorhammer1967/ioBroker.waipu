@@ -65,6 +65,8 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 
 ## Changelog
 
+### 0.1.28
+- Checker fixes: full news translations, changelog link, token-free trusted publishing.
 ### 0.1.27
 - Publish switched back to the proven npm token flow.
 ### 0.1.25
@@ -103,6 +105,8 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 - Release-Automation enabled.
 ### 0.1.0
 - First public version: channels, EPG, recordings.
+
+Older entries: [CHANGELOG_OLD.md](./CHANGELOG_OLD.md)
 
 ## License
 

@@ -65,6 +65,8 @@ Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu*
 
 ## Changelog
 
+### 0.1.28
+- Checker-Fixes: vollständige News-Übersetzungen, Changelog-Link, Trusted Publishing ohne Token.
 ### 0.1.27
 - Veröffentlichung wieder über den bewährten npm-Token-Weg.
 ### 0.1.25
@@ -103,6 +105,8 @@ Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu*
 - Release-Automatisierung aktiviert.
 ### 0.1.0
 - Erste öffentliche Version: Sender, EPG, Aufnahmen.
+
+Ältere Einträge: [CHANGELOG_OLD.md](./CHANGELOG_OLD.md)
 
 ## Lizenz
 
