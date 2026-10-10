@@ -3,7 +3,8 @@
   "version": "0.1.34",
   "description": "Integrates waipu.tv into ioBroker (channels, EPG, recordings)",
   "author": {
-    "name": "Thorhammer1967"
+    "name": "Thorhammer1967",
+    "email": "junk-alles@t-online.de"
   },
   "homepage": "https://github.com/Thorhammer1967/ioBroker.waipu",
   "license": "MIT",
