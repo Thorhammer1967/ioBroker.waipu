@@ -1,0 +1,107 @@
+{
+  "_id": "system.adapter.waipu.0",
+  "common": {
+    "name": "waipu",
+    "version": "0.1.35",
+    "titleLang": {
+      "en": "waipu.tv",
+      "de": "waipu.tv",
+      "ru": "waipu.tv",
+      "pt": "waipu.tv",
+      "nl": "waipu.tv",
+      "fr": "waipu.tv",
+      "it": "waipu.tv",
+      "es": "waipu.tv",
+      "pl": "waipu.tv",
+      "uk": "waipu.tv",
+      "zh-cn": "waipu.tv"
+    },
+    "desc": {
+      "en": "Integrates waipu.tv into ioBroker: channels, EPG and cloud recordings",
+      "de": "Integriert waipu.tv in ioBroker: Sender, EPG und Cloud-Aufnahmen",
+      "ru": "Интегрирует waipu.tv в ioBroker: каналы, EPG и облачные записи",
+      "pt": "Integra waipu.tv no ioBroker: canais, EPG e gravações em nuvem",
+      "nl": "Integreert waipu.tv in ioBroker: zenders, EPG en cloud-opnames",
+      "fr": "Intègre waipu.tv dans ioBroker : chaînes, EPG et enregistrements cloud",
+      "it": "Integra waipu.tv in ioBroker: canali, EPG e registrazioni cloud",
+      "es": "Integra waipu.tv en ioBroker: canales, EPG y grabaciones en la nube",
+      "pl": "Integruje waipu.tv w ioBroker: kanały, EPG i nagrania w chmurze",
+      "uk": "Інтегрує waipu.tv в ioBroker: канали, EPG та хмарні записи",
+      "zh-cn": "将 waipu.tv 集成到 ioBroker：频道、电子节目指南和云端录像"
+    },
+    "type": "multimedia",
+    "mode": "daemon",
+    "connectionType": "cloud",
+    "dataSource": "poll",
+    "adminUI": {
+      "config": "json"
+    },
+    "dependencies": [
+      {
+        "js-controller": ">=6.0.11"
+      }
+    ],
+    "globalDependencies": [
+      {
+        "admin": ">=7.6.20"
+      }
+    ],
+    "icon": "waipu.png",
+    "extIcon": "https://raw.githubusercontent.com/Thorhammer1967/ioBroker.waipu/main/admin/waipu.png",
+    "tier": 2,
+    "licenseInformation": {
+      "license": "MIT",
+      "type": "free"
+    },
+    "keywords": [
+      "waipu",
+      "tv",
+      "epg",
+      "recording",
+      "dvr",
+      "television"
+    ],
+    "compact": false,
+    "enabled": true,
+    "loglevel": "info",
+    "encryptedNative": [
+      "password",
+      "accessToken",
+      "refreshToken"
+    ],
+    "runAsCompactModeGroup": false
+  },
+  "native": {
+    "username": "junk.joerg@googlemail.com",
+    "password": "",
+    "updateInterval": 15,
+    "deviceId": "",
+    "accessToken": "",
+    "refreshToken": ""
+  },
+  "encryptedNative": [
+    "password",
+    "accessToken",
+    "refreshToken"
+  ],
+  "protectedNative": [
+    "password",
+    "accessToken",
+    "refreshToken"
+  ],
+  "instanceObjects": [
+    {
+      "_id": "info.connection",
+      "type": "state",
+      "common": {
+        "name": "connection",
+        "type": "boolean",
+        "role": "indicator.connected",
+        "read": true,
+        "write": false,
+        "def": false
+      },
+      "native": {}
+    }
+  ]
+}
