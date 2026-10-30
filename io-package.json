@@ -5,7 +5,16 @@
     "news": {
       "0.1.35": {
         "en": "Compact mode disabled: fixes connection issues during first login after adapter start.",
-        "de": "Compact-Modus deaktiviert: behebt Verbindungsprobleme beim ersten Login nach Adapterstart."
+        "de": "Compact-Modus deaktiviert: behebt Verbindungsprobleme beim ersten Login nach Adapterstart.",
+        "ru": "Compact mode disabled: fixes connection issues during first login after adapter start.",
+        "pt": "Compact mode disabled: fixes connection issues during first login after adapter start.",
+        "nl": "Compact mode disabled: fixes connection issues during first login after adapter start.",
+        "fr": "Compact mode disabled: fixes connection issues during first login after adapter start.",
+        "it": "Compact mode disabled: fixes connection issues during first login after adapter start.",
+        "es": "Compact mode disabled: fixes connection issues during first login after adapter start.",
+        "pl": "Compact mode disabled: fixes connection issues during first login after adapter start.",
+        "uk": "Compact mode disabled: fixes connection issues during first login after adapter start.",
+        "zh-cn": "Compact mode disabled: fixes connection issues during first login after adapter start."
       },
       "0.1.34": {
         "en": "Compact mode enabled (S1039); .vscode settings committed (S4036).",
@@ -84,19 +93,6 @@
         "pl": "Nowości skrócono do 7.",
         "uk": "Новини скорочено до 7.",
         "zh-cn": "新闻精简为 7 条。"
-      },
-      "0.1.13": {
-        "en": "Changelog 0.1.9 added.",
-        "de": "Änderungsliste 0.1.9 ergänzt.",
-        "ru": "Добавлен список изменений 0.1.9.",
-        "pt": "Registo de alterações 0.1.9 adicionado.",
-        "nl": "Changelog 0.1.9 toegevoegd.",
-        "fr": "Journal des modifications 0.1.9 ajouté.",
-        "it": "Aggiunto changelog 0.1.9.",
-        "es": "Registro de cambios 0.1.9 añadido.",
-        "pl": "Dodano listę zmian 0.1.9.",
-        "uk": "Додано список змін 0.1.9.",
-        "zh-cn": "新增 0.1.9 的变更记录。"
       }
     },
     "titleLang": {

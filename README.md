@@ -65,6 +65,9 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 
 ## Changelog
 
+### 0.1.35
+- Compact mode disabled: fixes connection issues during first login after adapter start.
+
 ### 0.1.34
 - Compact mode enabled (S1039); .vscode settings committed (S4036).
 ### 0.1.28
