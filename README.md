@@ -65,6 +65,9 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 
 ## Changelog
 
+### 0.1.36
+- Release alignment and checker fixes.
+
 ### 0.1.35
 - Compact mode disabled: fixes connection issues during first login after adapter start.
 

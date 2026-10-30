@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.35",
+    "version": "0.1.36",
     "news": {
+      "0.1.36": {
+        "en": "Release 0.1.36: waipu adapter checker cleanup and release alignment.",
+        "de": "Release 0.1.36: Checker-Aufraeumarbeiten und Release-Abgleich.",
+        "ru": "Release 0.1.36: waipu adapter checker cleanup and release alignment.",
+        "pt": "Release 0.1.36: waipu adapter checker cleanup and release alignment.",
+        "nl": "Release 0.1.36: waipu adapter checker cleanup and release alignment.",
+        "fr": "Release 0.1.36: waipu adapter checker cleanup and release alignment.",
+        "it": "Release 0.1.36: waipu adapter checker cleanup and release alignment.",
+        "es": "Release 0.1.36: waipu adapter checker cleanup and release alignment.",
+        "pl": "Release 0.1.36: waipu adapter checker cleanup and release alignment.",
+        "uk": "Release 0.1.36: waipu adapter checker cleanup and release alignment.",
+        "zh-cn": "Release 0.1.36: waipu adapter checker cleanup and release alignment."
+      },
       "0.1.35": {
         "en": "Compact mode disabled: fixes connection issues during first login after adapter start.",
         "de": "Compact-Modus deaktiviert: behebt Verbindungsprobleme beim ersten Login nach Adapterstart.",
@@ -80,19 +93,6 @@
         "pl": "Porządkowanie listy zmian.",
         "uk": "Упорядкування списку змін.",
         "zh-cn": "整理变更日志。"
-      },
-      "0.1.14": {
-        "en": "News trimmed to 7.",
-        "de": "News auf 7 gekürzt.",
-        "ru": "Новости сокращены до 7.",
-        "pt": "Novidades reduzidas a 7.",
-        "nl": "Nieuws teruggebracht tot 7.",
-        "fr": "Actualités réduites à 7.",
-        "it": "Notizie ridotte a 7.",
-        "es": "Novedades reducidas a 7.",
-        "pl": "Nowości skrócono do 7.",
-        "uk": "Новини скорочено до 7.",
-        "zh-cn": "新闻精简为 7 条。"
       }
     },
     "titleLang": {
