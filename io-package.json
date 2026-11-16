@@ -1,196 +1,201 @@
 {
-    "common": {
-        "name": "waipu",
-        "version": "0.1.36",
-        "news": {
-            "0.1.36": {
-                "en": "Release 0.1.36: waipu adapter checker cleanup and release alignment.",
-                "de": "Release 0.1.36: Checker-Aufraeumarbeiten und Release-Abgleich.",
-                "ru": "Релиз 0.1.36: очистка по результатам waipu-checker и выравнивание релиза.",
-                "pt": "Lançamento 0.1.36: limpeza pelo verificador do adaptador waipu e alinhamento do lançamento.",
-                "nl": "Release 0.1.36: opschoning door waipu-checker en release-afstemming.",
-                "fr": "Version 0.1.36 : nettoyage par le vérificateur d'adaptateur waipu et alignement de la version.",
-                "it": "Release 0.1.36: pulizia dal checker dell'adattatore waipu e allineamento del rilascio.",
-                "es": "Versión 0.1.36: limpieza por el verificador del adaptador waipu y alineación del lanzamiento.",
-                "pl": "Wydanie 0.1.36: czyszczenie przez narzędzie sprawdzające adapter waipu i wyrównanie wydania.",
-                "uk": "Реліз 0.1.36: очищення за результатами waipu-чекера та вирівнювання релізу.",
-                "zh-cn": "0.1.36 版：waipu 适配器检查器清理与发布对齐。"
-            },
-            "0.1.35": {
-                "en": "Compact mode disabled: fixes connection issues during first login after adapter start.",
-                "de": "Compact-Modus deaktiviert: behebt Verbindungsprobleme beim ersten Login nach Adapterstart.",
-                "ru": "Компактный режим отключён: устраняет проблемы с подключением при первом входе после запуска адаптера.",
-                "pt": "Modo compacto desativado: corrige problemas de conexão no primeiro login após iniciar o adaptador.",
-                "nl": "Compactmodus uitgeschakeld: lost verbindingsproblemen op bij de eerste login na het starten van de adapter.",
-                "fr": "Mode compact désactivé : corrige les problèmes de connexion lors de la première connexion après le démarrage de l'adaptateur.",
-                "it": "Modalità compatta disattivata: risolve i problemi di connessione al primo accesso dopo l'avvio dell'adattatore.",
-                "es": "Modo compacto desactivado: corrige los problemas de conexión en el primer inicio de sesión tras arrancar el adaptador.",
-                "pl": "Tryb kompaktowy wyłączony: naprawia problemy z połączeniem przy pierwszym logowaniu po starcie adaptera.",
-                "uk": "Компактний режим вимкнено: усуває проблеми з підключенням під час першого входу після запуску адаптера.",
-                "zh-cn": "已禁用紧凑模式：修复适配器启动后首次登录时的连接问题。"
-            },
-            "0.1.34": {
-                "en": "Compact mode enabled (S1039); .vscode settings committed (S4036).",
-                "de": "Compact-Modus aktiviert (S1039); .vscode-Settings eingecheckt (S4036).",
-                "ru": "Включён компактный режим (S1039); зафиксированы настройки .vscode (S4036).",
-                "pt": "Modo compacto ativado (S1039); configurações .vscode confirmadas (S4036).",
-                "nl": "Compactmodus ingeschakeld (S1039); .vscode-instellingen vastgelegd (S4036).",
-                "fr": "Mode compact activé (S1039); réglages .vscode ajoutés (S4036).",
-                "it": "Modalità compatta attivata (S1039); impostazioni .vscode aggiunte (S4036).",
-                "es": "Modo compacto activado (S1039); ajustes .vscode añadidos (S4036).",
-                "pl": "Włączono tryb kompaktowy (S1039); dodano ustawienia .vscode (S4036).",
-                "uk": "Увімкнено компактний режим (S1039); додано налаштування .vscode (S4036).",
-                "zh-cn": "启用紧凑模式 (S1039)；提交 .vscode 设置 (S4036)。"
-            },
-            "0.1.28": {
-                "en": "Checker fixes: full news translations, changelog link and token-free trusted publishing.",
-                "de": "Checker-Fixes: vollständige News-Übersetzungen, Changelog-Link und Trusted Publishing ohne Token.",
-                "ru": "Исправления для проверки: полные переводы новостей, ссылка на список изменений, доверенная публикация без токена.",
-                "pt": "Correções do verificador: traduções completas das novidades, ligação ao registo de alterações e publicação confiável sem token.",
-                "nl": "Checker-fixes: volledige nieuwsvertalingen, changelog-link en trusted publishing zonder token.",
-                "fr": "Corrections du vérificateur : traductions complètes des actualités, lien du journal des modifications et publication de confiance sans jeton.",
-                "it": "Correzioni del checker: traduzioni complete delle notizie, link al changelog e pubblicazione attendibile senza token.",
-                "es": "Correcciones del verificador: traducciones completas de novedades, enlace al registro de cambios y publicación confiable sin token.",
-                "pl": "Poprawki kontrolera: pełne tłumaczenia nowości, link do listy zmian i zaufana publikacja bez tokenu.",
-                "uk": "Виправлення для перевірки: повні переклади новин, посилання на список змін і довірена публікація без токена.",
-                "zh-cn": "检查器修复：完整的新闻翻译、变更日志链接以及免令牌的可信发布。"
-            },
-            "0.1.20": {
-                "en": "News window trimmed.",
-                "de": "News-Fenster gekürzt.",
-                "ru": "Список новостей сокращён.",
-                "pt": "Janela de novidades reduzida.",
-                "nl": "Nieuwsvenster ingekort.",
-                "fr": "Fenêtre des actualités réduite.",
-                "it": "Finestra delle notizie ridotta.",
-                "es": "Ventana de novedades reducida.",
-                "pl": "Okno nowości skrócone.",
-                "uk": "Перелік новин скорочено.",
-                "zh-cn": "新闻列表已精简。"
-            },
-            "0.1.19": {
-                "en": "Re-check from CI.",
-                "de": "Neuprüfung aus der CI.",
-                "ru": "Повторная проверка из CI.",
-                "pt": "Nova verificação pela CI.",
-                "nl": "Hercontrole vanuit de CI.",
-                "fr": "Nouvelle vérification depuis la CI.",
-                "it": "Riverifica dalla CI.",
-                "es": "Nueva comprobación desde CI.",
-                "pl": "Ponowne sprawdzenie z CI.",
-                "uk": "Повторна перевірка з CI.",
-                "zh-cn": "从 CI 重新检查。"
-            },
-            "0.1.15": {
-                "en": "Changelog housekeeping.",
-                "de": "Änderungslisten-Pflege.",
-                "ru": "Наведение порядка в списке изменений.",
-                "pt": "Organização do registo de alterações.",
-                "nl": "Opkuisen van de changelog.",
-                "fr": "Mise en ordre du journal des modifications.",
-                "it": "Riordino del changelog.",
-                "es": "Orden del registro de cambios.",
-                "pl": "Porządkowanie listy zmian.",
-                "uk": "Упорядкування списку змін.",
-                "zh-cn": "整理变更日志。"
-            }
-        },
-        "titleLang": {
-            "en": "waipu.tv",
-            "de": "waipu.tv",
-            "ru": "waipu.tv",
-            "pt": "waipu.tv",
-            "nl": "waipu.tv",
-            "fr": "waipu.tv",
-            "it": "waipu.tv",
-            "es": "waipu.tv",
-            "pl": "waipu.tv",
-            "uk": "waipu.tv",
-            "zh-cn": "waipu.tv"
-        },
-        "desc": {
-            "en": "Integrates waipu.tv into ioBroker: channels, EPG and cloud recordings",
-            "de": "Integriert waipu.tv in ioBroker: Sender, EPG und Cloud-Aufnahmen",
-            "ru": "Интегрирует waipu.tv в ioBroker: каналы, EPG и облачные записи",
-            "pt": "Integra waipu.tv no ioBroker: canais, EPG e gravações em nuvem",
-            "nl": "Integreert waipu.tv in ioBroker: zenders, EPG en cloud-opnames",
-            "fr": "Intègre waipu.tv dans ioBroker : chaînes, EPG et enregistrements cloud",
-            "it": "Integra waipu.tv in ioBroker: canali, EPG e registrazioni cloud",
-            "es": "Integra waipu.tv en ioBroker: canales, EPG y grabaciones en la nube",
-            "pl": "Integruje waipu.tv w ioBroker: kanały, EPG i nagrania w chmurze",
-            "uk": "Інтегрує waipu.tv в ioBroker: канали, EPG та хмарні записи",
-            "zh-cn": "将 waipu.tv 集成到 ioBroker：频道、电子节目指南和云端录像"
-        },
-        "authors": [
-            "Thorhammer1967 <junk-alles@t-online.de>"
-        ],
-        "type": "multimedia",
-        "platform": "Javascript/Node.js",
-        "mode": "daemon",
-        "connectionType": "cloud",
-        "dataSource": "poll",
-        "adminUI": {
-            "config": "json"
-        },
-        "dependencies": [
-            {
-                "js-controller": ">=6.0.11"
-            }
-        ],
-        "globalDependencies": [
-            {
-                "admin": ">=7.6.20"
-            }
-        ],
-        "icon": "waipu.png",
-        "extIcon": "https://raw.githubusercontent.com/Thorhammer1967/ioBroker.waipu/main/admin/waipu.png",
-        "tier": 2,
-        "licenseInformation": {
-            "license": "MIT",
-            "type": "free"
-        },
-        "keywords": [
-            "waipu",
-            "tv",
-            "epg",
-            "recording",
-            "dvr",
-            "television"
-        ],
-        "compact": false
+  "common": {
+    "name": "waipu",
+    "version": "0.1.36",
+    "news": {
+      "0.1.36": {
+        "en": "Release 0.1.36: waipu adapter checker cleanup and release alignment.",
+        "de": "Release 0.1.36: Checker-Aufraeumarbeiten und Release-Abgleich.",
+        "ru": "Релиз 0.1.36: очистка по результатам waipu-checker и выравнивание релиза.",
+        "pt": "Lançamento 0.1.36: limpeza pelo verificador do adaptador waipu e alinhamento do lançamento.",
+        "nl": "Release 0.1.36: opschoning door waipu-checker en release-afstemming.",
+        "fr": "Version 0.1.36 : nettoyage par le vérificateur d'adaptateur waipu et alignement de la version.",
+        "it": "Release 0.1.36: pulizia dal checker dell'adattatore waipu e allineamento del rilascio.",
+        "es": "Versión 0.1.36: limpieza por el verificador del adaptador waipu y alineación del lanzamiento.",
+        "pl": "Wydanie 0.1.36: czyszczenie przez narzędzie sprawdzające adapter waipu i wyrównanie wydania.",
+        "uk": "Реліз 0.1.36: очищення за результатами waipu-чекера та вирівнювання релізу.",
+        "zh-cn": "0.1.36 版：waipu 适配器检查器清理与发布对齐。"
+      },
+      "0.1.35": {
+        "en": "Compact mode disabled: fixes connection issues during first login after adapter start.",
+        "de": "Compact-Modus deaktiviert: behebt Verbindungsprobleme beim ersten Login nach Adapterstart.",
+        "ru": "Компактный режим отключён: устраняет проблемы с подключением при первом входе после запуска адаптера.",
+        "pt": "Modo compacto desativado: corrige problemas de conexão no primeiro login após iniciar o adaptador.",
+        "nl": "Compactmodus uitgeschakeld: lost verbindingsproblemen op bij de eerste login na het starten van de adapter.",
+        "fr": "Mode compact désactivé : corrige les problèmes de connexion lors de la première connexion après le démarrage de l'adaptateur.",
+        "it": "Modalità compatta disattivata: risolve i problemi di connessione al primo accesso dopo l'avvio dell'adattatore.",
+        "es": "Modo compacto desactivado: corrige los problemas de conexión en el primer inicio de sesión tras arrancar el adaptador.",
+        "pl": "Tryb kompaktowy wyłączony: naprawia problemy z połączeniem przy pierwszym logowaniu po starcie adaptera.",
+        "uk": "Компактний режим вимкнено: усуває проблеми з підключенням під час першого входу після запуску адаптера.",
+        "zh-cn": "已禁用紧凑模式：修复适配器启动后首次登录时的连接问题。"
+      },
+      "0.1.34": {
+        "en": "Compact mode enabled (S1039); .vscode settings committed (S4036).",
+        "de": "Compact-Modus aktiviert (S1039); .vscode-Settings eingecheckt (S4036).",
+        "ru": "Включён компактный режим (S1039); зафиксированы настройки .vscode (S4036).",
+        "pt": "Modo compacto ativado (S1039); configurações .vscode confirmadas (S4036).",
+        "nl": "Compactmodus ingeschakeld (S1039); .vscode-instellingen vastgelegd (S4036).",
+        "fr": "Mode compact activé (S1039); réglages .vscode ajoutés (S4036).",
+        "it": "Modalità compatta attivata (S1039); impostazioni .vscode aggiunte (S4036).",
+        "es": "Modo compacto activado (S1039); ajustes .vscode añadidos (S4036).",
+        "pl": "Włączono tryb kompaktowy (S1039); dodano ustawienia .vscode (S4036).",
+        "uk": "Увімкнено компактний режим (S1039); додано налаштування .vscode (S4036).",
+        "zh-cn": "启用紧凑模式 (S1039)；提交 .vscode 设置 (S4036)。"
+      },
+      "0.1.28": {
+        "en": "Checker fixes: full news translations, changelog link and token-free trusted publishing.",
+        "de": "Checker-Fixes: vollständige News-Übersetzungen, Changelog-Link und Trusted Publishing ohne Token.",
+        "ru": "Исправления для проверки: полные переводы новостей, ссылка на список изменений, доверенная публикация без токена.",
+        "pt": "Correções do verificador: traduções completas das novidades, ligação ao registo de alterações e publicação confiável sem token.",
+        "nl": "Checker-fixes: volledige nieuwsvertalingen, changelog-link en trusted publishing zonder token.",
+        "fr": "Corrections du vérificateur : traductions complètes des actualités, lien du journal des modifications et publication de confiance sans jeton.",
+        "it": "Correzioni del checker: traduzioni complete delle notizie, link al changelog e pubblicazione attendibile senza token.",
+        "es": "Correcciones del verificador: traducciones completas de novedades, enlace al registro de cambios y publicación confiable sin token.",
+        "pl": "Poprawki kontrolera: pełne tłumaczenia nowości, link do listy zmian i zaufana publikacja bez tokenu.",
+        "uk": "Виправлення для перевірки: повні переклади новин, посилання на список змін і довірена публікація без токена.",
+        "zh-cn": "检查器修复：完整的新闻翻译、变更日志链接以及免令牌的可信发布。"
+      },
+      "0.1.20": {
+        "en": "News window trimmed.",
+        "de": "News-Fenster gekürzt.",
+        "ru": "Список новостей сокращён.",
+        "pt": "Janela de novidades reduzida.",
+        "nl": "Nieuwsvenster ingekort.",
+        "fr": "Fenêtre des actualités réduite.",
+        "it": "Finestra delle notizie ridotta.",
+        "es": "Ventana de novedades reducida.",
+        "pl": "Okno nowości skrócone.",
+        "uk": "Перелік новин скорочено.",
+        "zh-cn": "新闻列表已精简。"
+      },
+      "0.1.19": {
+        "en": "Re-check from CI.",
+        "de": "Neuprüfung aus der CI.",
+        "ru": "Повторная проверка из CI.",
+        "pt": "Nova verificação pela CI.",
+        "nl": "Hercontrole vanuit de CI.",
+        "fr": "Nouvelle vérification depuis la CI.",
+        "it": "Riverifica dalla CI.",
+        "es": "Nueva comprobación desde CI.",
+        "pl": "Ponowne sprawdzenie z CI.",
+        "uk": "Повторна перевірка з CI.",
+        "zh-cn": "从 CI 重新检查。"
+      },
+      "0.1.15": {
+        "en": "Changelog housekeeping.",
+        "de": "Änderungslisten-Pflege.",
+        "ru": "Наведение порядка в списке изменений.",
+        "pt": "Organização do registo de alterações.",
+        "nl": "Opkuisen van de changelog.",
+        "fr": "Mise en ordre du journal des modifications.",
+        "it": "Riordino del changelog.",
+        "es": "Orden del registro de cambios.",
+        "pl": "Porządkowanie listy zmian.",
+        "uk": "Упорядкування списку змін.",
+        "zh-cn": "整理变更日志。"
+      }
     },
-    "native": {
-        "username": "",
-        "password": "",
-        "updateInterval": 15,
-        "deviceId": "",
-        "accessToken": "",
-        "refreshToken": ""
+    "titleLang": {
+      "en": "waipu.tv",
+      "de": "waipu.tv",
+      "ru": "waipu.tv",
+      "pt": "waipu.tv",
+      "nl": "waipu.tv",
+      "fr": "waipu.tv",
+      "it": "waipu.tv",
+      "es": "waipu.tv",
+      "pl": "waipu.tv",
+      "uk": "waipu.tv",
+      "zh-cn": "waipu.tv"
     },
-    "objects": [],
-    "instanceObjects": [
-        {
-            "_id": "info.connection",
-            "type": "state",
-            "common": {
-                "name": "connection",
-                "type": "boolean",
-                "role": "indicator.connected",
-                "read": true,
-                "write": false,
-                "def": false
-            },
-            "native": {}
-        }
+    "desc": {
+      "en": "Integrates waipu.tv into ioBroker: channels, EPG and cloud recordings",
+      "de": "Integriert waipu.tv in ioBroker: Sender, EPG und Cloud-Aufnahmen",
+      "ru": "Интегрирует waipu.tv в ioBroker: каналы, EPG и облачные записи",
+      "pt": "Integra waipu.tv no ioBroker: canais, EPG e gravações em nuvem",
+      "nl": "Integreert waipu.tv in ioBroker: zenders, EPG en cloud-opnames",
+      "fr": "Intègre waipu.tv dans ioBroker : chaînes, EPG et enregistrements cloud",
+      "it": "Integra waipu.tv in ioBroker: canali, EPG e registrazioni cloud",
+      "es": "Integra waipu.tv en ioBroker: canales, EPG y grabaciones en la nube",
+      "pl": "Integruje waipu.tv w ioBroker: kanały, EPG i nagrania w chmurze",
+      "uk": "Інтегрує waipu.tv в ioBroker: канали, EPG та хмарні записи",
+      "zh-cn": "将 waipu.tv 集成到 ioBroker：频道、电子节目指南和云端录像"
+    },
+    "authors": [
+      "Thorhammer1967 <junk-alles@t-online.de>"
     ],
-    "encryptedNative": [
-        "password",
-        "accessToken",
-        "refreshToken"
+    "type": "multimedia",
+    "platform": "Javascript/Node.js",
+    "mode": "daemon",
+    "connectionType": "cloud",
+    "dataSource": "poll",
+    "adminUI": {
+      "config": "json"
+    },
+    "dependencies": [
+      {
+        "js-controller": ">=6.0.11"
+      }
     ],
-    "protectedNative": [
-        "password",
-        "accessToken",
-        "refreshToken"
-    ]
+    "globalDependencies": [
+      {
+        "admin": ">=7.6.20"
+      }
+    ],
+    "icon": "waipu.png",
+    "extIcon": "https://raw.githubusercontent.com/Thorhammer1967/ioBroker.waipu/main/admin/waipu.png",
+    "tier": 2,
+    "licenseInformation": {
+      "license": "MIT",
+      "type": "free"
+    },
+    "keywords": [
+      "waipu",
+      "tv",
+      "epg",
+      "recording",
+      "dvr",
+      "television"
+    ],
+    "compact": false,
+    "license": "MIT",
+    "title": "waipu.tv",
+    "docs": {
+      "en": "README.md"
+    }
+  },
+  "native": {
+    "username": "",
+    "password": "",
+    "updateInterval": 15,
+    "deviceId": "",
+    "accessToken": "",
+    "refreshToken": ""
+  },
+  "objects": [],
+  "instanceObjects": [
+    {
+      "_id": "info.connection",
+      "type": "state",
+      "common": {
+        "name": "connection",
+        "type": "boolean",
+        "role": "indicator.connected",
+        "read": true,
+        "write": false,
+        "def": false
+      },
+      "native": {}
+    }
+  ],
+  "encryptedNative": [
+    "password",
+    "accessToken",
+    "refreshToken"
+  ],
+  "protectedNative": [
+    "password",
+    "accessToken",
+    "refreshToken"
+  ]
 }
