@@ -1,0 +1,4607 @@
+{
+ "waipu.tv": {
+  "settings": {
+   "style": {
+    "background_class": "body",
+    "background": "#1e1e2e"
+   },
+   "theme": "redmond",
+   "sizex": "1920",
+   "sizey": "1080",
+   "gridSize": "10",
+   "snapType": 0,
+   "useAsDefault": false,
+   "alwaysRender": false,
+   "useBackground": true
+  },
+  "widgets": {
+   "w00001": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "waipu.tv — TV-Guide (iobroker.",
+     "html": "waipu.tv — TV-Guide (iobroker.waipu)",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "20px",
+     "width": "1840px",
+     "height": "44px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "28px",
+     "text-align": "left",
+     "font-weight": "bold",
+     "bindings": []
+    }
+   },
+   "w00002": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "connection",
+     "oid": "waipu.0.info.connection",
+     "html_prepend": "Status: ",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1700px",
+     "top": "24px",
+     "width": "180px",
+     "height": "30px",
+     "z-index": 2,
+     "color": "#7CFC00",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "16px",
+     "text-align": "right",
+     "bindings": []
+    }
+   },
+   "w00003": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "Sender",
+     "html": "Sender",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "80px",
+     "width": "220px",
+     "height": "28px",
+     "z-index": 2,
+     "color": "#FFD700",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "16px",
+     "text-align": "left",
+     "font-weight": "bold",
+     "bindings": []
+    }
+   },
+   "w00004": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "Jetzt läuft",
+     "html": "Jetzt läuft",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "80px",
+     "width": "620px",
+     "height": "28px",
+     "z-index": 2,
+     "color": "#FFD700",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "16px",
+     "text-align": "left",
+     "font-weight": "bold",
+     "bindings": []
+    }
+   },
+   "w00005": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "von",
+     "html": "von",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "80px",
+     "width": "320px",
+     "height": "28px",
+     "z-index": 2,
+     "color": "#FFD700",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "16px",
+     "text-align": "left",
+     "font-weight": "bold",
+     "bindings": []
+    }
+   },
+   "w00006": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "bis",
+     "html": "bis",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "80px",
+     "width": "320px",
+     "height": "28px",
+     "z-index": 2,
+     "color": "#FFD700",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "16px",
+     "text-align": "left",
+     "font-weight": "bold",
+     "bindings": []
+    }
+   },
+   "w00007": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "Nächste Sendung",
+     "html": "Nächste Sendung",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "80px",
+     "width": "320px",
+     "height": "28px",
+     "z-index": 2,
+     "color": "#FFD700",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "16px",
+     "text-align": "left",
+     "font-weight": "bold",
+     "bindings": []
+    }
+   },
+   "w00008": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "3sat",
+     "html": "3sat",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "116px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00009": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.3sat.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "116px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00010": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.3sat.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "116px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00011": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.3sat.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "116px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00012": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.3sat.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "116px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00013": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "ARD-alpha",
+     "html": "ARD-alpha",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "142px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00014": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.bralpha.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "142px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00015": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.bralpha.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "142px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00016": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.bralpha.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "142px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00017": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.bralpha.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "142px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00018": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "ARTE",
+     "html": "ARTE",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "168px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00019": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.arte.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "168px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00020": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.arte.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "168px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00021": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.arte.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "168px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00022": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.arte.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "168px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00023": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "BBC History",
+     "html": "BBC History",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "194px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00024": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.bbchistory.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "194px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00025": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.bbchistory.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "194px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00026": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.bbchistory.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "194px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00027": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.bbchistory.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "194px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00028": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "BBC Lifestyle",
+     "html": "BBC Lifestyle",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "220px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00029": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.bbclifestyle.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "220px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00030": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.bbclifestyle.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "220px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00031": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.bbclifestyle.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "220px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00032": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.bbclifestyle.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "220px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00033": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "BBC News",
+     "html": "BBC News",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "246px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00034": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.bbc_world_news_europe.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "246px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00035": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.bbc_world_news_europe.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "246px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00036": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.bbc_world_news_europe.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "246px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00037": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.bbc_world_news_europe.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "246px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00038": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "BBC Top Gear",
+     "html": "BBC Top Gear",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "272px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00039": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.bbctopgear.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "272px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00040": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.bbctopgear.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "272px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00041": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.bbctopgear.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "272px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00042": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.bbctopgear.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "272px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00043": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "BR Nord",
+     "html": "BR Nord",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "298px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00044": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.brnord.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "298px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00045": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.brnord.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "298px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00046": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.brnord.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "298px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00047": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.brnord.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "298px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00048": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "BR Süd",
+     "html": "BR Süd",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "324px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00049": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.brsued.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "324px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00050": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.brsued.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "324px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00051": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.brsued.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "324px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00052": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.brsued.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "324px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00053": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "Breaking Lab",
+     "html": "Breaking Lab",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "350px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00054": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.breakinglab.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "350px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00055": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.breakinglab.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "350px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00056": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.breakinglab.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "350px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00057": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.breakinglab.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "350px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00058": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "BRONCO",
+     "html": "BRONCO",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "376px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00059": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.bronco.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "376px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00060": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.bronco.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "376px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00061": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.bronco.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "376px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00062": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.bronco.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "376px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00063": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "CNN Europe",
+     "html": "CNN Europe",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "402px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00064": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.cnn_europe.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "402px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00065": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.cnn_europe.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "402px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00066": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.cnn_europe.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "402px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00067": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.cnn_europe.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "402px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00068": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "Curiosity Channel",
+     "html": "Curiosity Channel",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "428px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00069": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.spiegelwissen.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "428px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00070": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.spiegelwissen.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "428px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00071": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.spiegelwissen.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "428px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00072": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.spiegelwissen.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "428px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00073": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "Das Erste",
+     "html": "Das Erste",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "454px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00074": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.ard.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "454px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00075": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.ard.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "454px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00076": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.ard.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "454px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00077": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.ard.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "454px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00078": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "DMAX",
+     "html": "DMAX",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "480px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00079": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.dmax.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "480px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00080": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.dmax.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "480px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00081": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.dmax.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "480px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00082": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.dmax.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "480px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00083": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "DMAX Blaulicht",
+     "html": "DMAX Blaulicht",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "506px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00084": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.dmaxblaulicht.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "506px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00085": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.dmaxblaulicht.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "506px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00086": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.dmaxblaulicht.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "506px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00087": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.dmaxblaulicht.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "506px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00088": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "DMAX Motor",
+     "html": "DMAX Motor",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "532px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00089": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.dmaxmotor.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "532px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00090": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.dmaxmotor.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "532px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00091": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.dmaxmotor.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "532px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00092": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.dmaxmotor.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "532px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00093": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "DMAX Schatzsucher",
+     "html": "DMAX Schatzsucher",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "558px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00094": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.dmaxschatzsucher.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "558px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00095": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.dmaxschatzsucher.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "558px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00096": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.dmaxschatzsucher.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "558px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00097": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.dmaxschatzsucher.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "558px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00098": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "euronews",
+     "html": "euronews",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "584px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00099": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.euronews.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "584px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00100": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.euronews.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "584px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00101": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.euronews.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "584px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00102": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.euronews.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "584px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00103": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "hr-fernsehen",
+     "html": "hr-fernsehen",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "610px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00104": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.hr.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "610px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00105": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.hr.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "610px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00106": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.hr.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "610px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00107": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.hr.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "610px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00108": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "MDR Sachsen",
+     "html": "MDR Sachsen",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "636px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00109": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.mdr_sachsen.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "636px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00110": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.mdr_sachsen.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "636px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00111": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.mdr_sachsen.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "636px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00112": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.mdr_sachsen.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "636px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00113": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "MDR Sachsen-Anhalt",
+     "html": "MDR Sachsen-Anhalt",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "662px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00114": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.mdr_st.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "662px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00115": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.mdr_st.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "662px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00116": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.mdr_st.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "662px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00117": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.mdr_st.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "662px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00118": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "MDR Thüringen",
+     "html": "MDR Thüringen",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "688px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00119": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.mdr_th.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "688px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00120": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.mdr_th.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "688px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00121": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.mdr_th.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "688px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00122": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.mdr_th.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "688px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00123": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "MTV",
+     "html": "MTV",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "714px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00124": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.mtv.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "714px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00125": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.mtv.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "714px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00126": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.mtv.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "714px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00127": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.mtv.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "714px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00128": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "NITRO",
+     "html": "NITRO",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "740px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00129": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.rtlnitro.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "740px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00130": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.rtlnitro.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "740px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00131": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.rtlnitro.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "740px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00132": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.rtlnitro.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "740px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00133": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "One Terra",
+     "html": "One Terra",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "766px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00134": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.oneterra.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "766px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00135": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.oneterra.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "766px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00136": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.oneterra.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "766px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00137": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.oneterra.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "766px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00138": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "phoenix",
+     "html": "phoenix",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "792px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00139": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.phoenix.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "792px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00140": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.phoenix.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "792px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00141": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.phoenix.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "792px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00142": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.phoenix.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "792px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00143": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "ProSieben",
+     "html": "ProSieben",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "818px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00144": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.pro7.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "818px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00145": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.pro7.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "818px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00146": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.pro7.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "818px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00147": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.pro7.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "818px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00148": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "RBB Berlin",
+     "html": "RBB Berlin",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "844px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00149": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.rbb_berlin.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "844px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00150": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.rbb_berlin.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "844px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00151": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.rbb_berlin.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "844px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00152": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.rbb_berlin.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "844px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00153": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "RBB Brandenburg",
+     "html": "RBB Brandenburg",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "870px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00154": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.rbb_bb.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "870px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00155": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.rbb_bb.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "870px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00156": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.rbb_bb.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "870px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00157": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.rbb_bb.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "870px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00158": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "RTL",
+     "html": "RTL",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "896px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00159": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.rtl.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "896px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00160": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.rtl.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "896px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00161": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.rtl.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "896px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00162": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.rtl.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "896px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00163": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "RTL Comedy",
+     "html": "RTL Comedy",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "922px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00164": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.rtlcomedy.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "922px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00165": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.rtlcomedy.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "922px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00166": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.rtlcomedy.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "922px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00167": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.rtlcomedy.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "922px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00168": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "RTL Crime",
+     "html": "RTL Crime",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "948px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00169": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.rtlcrime.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "948px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00170": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.rtlcrime.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "948px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00171": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.rtlcrime.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "948px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00172": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.rtlcrime.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "948px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00173": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "RTL Haus & Garten",
+     "html": "RTL Haus & Garten",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "974px",
+     "width": "220px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   },
+   "w00174": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgram",
+     "oid": "waipu.0.channels.rtlhausgarten.currentProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "270px",
+     "top": "974px",
+     "width": "620px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "13px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00175": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStart",
+     "oid": "waipu.0.channels.rtlhausgarten.currentProgramStart",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "900px",
+     "top": "974px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00176": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "currentProgramStop",
+     "oid": "waipu.0.channels.rtlhausgarten.currentProgramStop",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1230px",
+     "top": "974px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00177": {
+    "tpl": "tplValueString",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "nextProgram",
+     "oid": "waipu.0.channels.rtlhausgarten.nextProgram",
+     "html_prepend": "",
+     "html_append": "",
+     "bindings": []
+    },
+    "style": {
+     "left": "1560px",
+     "top": "974px",
+     "width": "320px",
+     "height": "24px",
+     "z-index": 2,
+     "color": "#ffffff",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "bindings": []
+    }
+   },
+   "w00178": {
+    "tpl": "tplHtml",
+    "widgetSet": "basic",
+    "widget": "",
+    "data": {
+     "g_fixed": true,
+     "g_css_font_text": false,
+     "name": "Aufnahmen: waipu.0.recordings.",
+     "html": "Aufnahmen: waipu.0.recordings.* (Titel/Sender/Status/Dauer) — EPG-Details: waipu.0.channels.<sender>.epg (JSON)",
+     "bindings": []
+    },
+    "style": {
+     "left": "40px",
+     "top": "1040px",
+     "width": "1200px",
+     "height": "26px",
+     "z-index": 2,
+     "color": "#aaaaaa",
+     "font-family": "RobotoCondensed-Light",
+     "font-size": "12px",
+     "text-align": "left",
+     "font-weight": "normal",
+     "bindings": []
+    }
+   }
+  }
+ }
+}
