@@ -51,14 +51,6 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 | `recordings.count` | number | Number of recordings |
 | `recordings.<id>.*` | various | Title, status, station, start time, duration per recording |
 
-## VIS-2 dashboard (vis-2 view "waipu.tv")
-
-A ready-made **vis-2 view** (TV guide) is included in [`vis-2/waipu.tv-view.json`](vis-2/waipu.tv-view.json):
-
-- Shows ~34 popular channels with **now playing / from / to / next program** and the connection status
-- Import: ioBroker Admin → vis-2 editor → project `main` → **Import view**, or merge the JSON into `vis-views.json` under the key `"waipu.tv"`
-- Open: `http://<iobroker>:8082/vis-2/index.html#waipu.tv`
-- Details & customization: [`vis-2/README.md`](vis-2/README.md)
 
 ## Troubleshooting
 
