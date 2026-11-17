@@ -51,6 +51,15 @@ Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu*
 | `recordings.count` | number | Anzahl Aufnahmen |
 | `recordings.<id>.*` | diverse | Titel, Status, Sender, Startzeit, Dauer je Aufnahme |
 
+## VIS-2 Dashboard (vis-2 View „waipu.tv")
+
+Eine fertige **vis-2 View** (TV-Guide) liegt in [`vis-2/waipu.tv-view.json`](vis-2/waipu.tv-view.json):
+
+- Zeigt ~34 beliebte Sender mit **Jetzt läuft / von / bis / Nächste Sendung** plus Verbindungsstatus
+- Import: ioBroker Admin → vis-2 Editor → Projekt `main` → **View importieren**, oder JSON unter dem Key `"waipu.tv"` in die `vis-views.json` mergen
+- Aufruf: `http://<iobroker>:8082/vis-2/index.html#waipu.tv`
+- Details & Anpassung: [`vis-2/README.md`](vis-2/README.md)
+
 ## Fehlerbehandlung
 
 - **`info.connection = false` + Login-Fehler im Log:** Zugangsdaten prüfen, dann Instanz neu starten
