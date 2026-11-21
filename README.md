@@ -66,6 +66,9 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 
 ## Changelog
 
+### 0.1.37
+- Review fixes for official latest repo: English log messages, i18n object names (en/de), `common.custom` check before deleting stale recording objects, code-level `updateInterval` bounds (5–1440 min), removed invalid `role` on channel objects
+
 ### 0.1.36
 - Release alignment and checker fixes.
 

@@ -66,6 +66,9 @@ Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu*
 
 ## Changelog
 
+### 0.1.37
+- Review-Fixes fürs offizielle Latest-Repo: englische Log-Meldungen, i18n-Objektnamen (en/de), `common.custom`-Prüfung vor dem Löschen veralteter Aufnahmen, `updateInterval`-Grenzen im Code (5–1440 Min.), ungültige `role` an Kanal-Objekten entfernt
+
 ### 0.1.34
 - Compact-Modus aktiviert (S1039); .vscode-Settings eingecheckt (S4036).
 ### 0.1.28

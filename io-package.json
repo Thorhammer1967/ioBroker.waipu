@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "waipu",
-    "version": "0.1.36",
+    "version": "0.1.37",
     "news": {
       "0.1.36": {
         "en": "Release 0.1.36: waipu adapter checker cleanup and release alignment.",
@@ -93,6 +93,10 @@
         "pl": "Porządkowanie listy zmian.",
         "uk": "Упорядкування списку змін.",
         "zh-cn": "整理变更日志。"
+      },
+      "0.1.37": {
+        "en": "Review fixes: English log messages and i18n object names (en/de), common.custom check before deleting stale recording objects, code-level updateInterval bounds (5-1440), removed invalid role on channel objects",
+        "de": "Review-Fixes: englische Log-Meldungen und i18n-Objektnamen (en/de), common.custom-Pruefung vor dem Loeschen veralteter Aufnahmen, updateInterval-Grenzen im Code (5-1440), ungueltige role an Kanal-Objekten entfernt"
       }
     },
     "titleLang": {
