@@ -71,12 +71,20 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      id-token: write
     env:
-      npm_config_provenance: 'true'
+      VERSION: ${{ github.ref_name }}
 
     steps:
+      - name: Skip publish if version already on npm
+        run: |
+          if npm view "iobroker.waipu@${VERSION#v}" version >/dev/null 2>&1; then
+            echo "Version ${VERSION#v} already published on npm - skipping deploy job"
+            echo "SKIP_DEPLOY=true" >> "$GITHUB_ENV"
+          else
+            echo "SKIP_DEPLOY=false" >> "$GITHUB_ENV"
+          fi
       - uses: ioBroker/testing-action-deploy@v1
+        if: env.SKIP_DEPLOY != 'true'
         with:
           node-version: '24.x'
           github-token: ${{ secrets.GITHUB_TOKEN }}
