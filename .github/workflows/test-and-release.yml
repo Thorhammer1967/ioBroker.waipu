@@ -71,6 +71,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      id-token: write
     env:
       VERSION: ${{ github.ref_name }}
 
