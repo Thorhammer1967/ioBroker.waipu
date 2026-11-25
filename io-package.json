@@ -5,16 +5,16 @@
     "news": {
       "0.1.38": {
         "en": "Object dump i18n completed; CI hardened for trusted publishing (provenance sign on release)",
-        "de": "Objekt-Dump i18n vervollstaendigt; CI gehaertet fuer Trusted Publishing (Provenance-Signatur bei Release)",
-        "ru": "Object dump i18n completed; CI hardened for trusted publishing (provenance sign on release)",
-        "pt": "Object dump i18n completed; CI hardened for trusted publishing (provenance sign on release)",
-        "nl": "Object dump i18n completed; CI hardened for trusted publishing (provenance sign on release)",
-        "fr": "Object dump i18n completed; CI hardened for trusted publishing (provenance sign on release)",
-        "it": "Object dump i18n completed; CI hardened for trusted publishing (provenance sign on release)",
-        "es": "Object dump i18n completed; CI hardened for trusted publishing (provenance sign on release)",
-        "pl": "Object dump i18n completed; CI hardened for trusted publishing (provenance sign on release)",
-        "uk": "Object dump i18n completed; CI hardened for trusted publishing (provenance sign on release)",
-        "zh-cn": "Object dump i18n completed; CI hardened for trusted publishing (provenance sign on release)"
+        "de": "Objekt-Dump: Übersetzungen vervollständigt; CI gehärtet für npm Trusted Publishing (Provenance-Signatur beim Release)",
+        "ru": "Дамп объектов: добавлены переводы; CI усилен для доверенной публикации npm (подпись provenance при релизе)",
+        "pt": "Dump de objetos: traducoes concluidas; CI reforcado para publicacao confiavel no npm (assinatura provenance no lancamento)",
+        "nl": "Objectdump: vertalingen voltooid; CI verhard voor vertrouwd publiceren op npm (provenance-handtekening bij release)",
+        "fr": "Dump d'objets : traductions terminees ; CI renforce pour la publication de confiance npm (signature provenance a la release)",
+        "it": "Dump oggetti: traduzioni completate; CI rinforzata per pubblicazione attendibile su npm (firma provenance al rilascio)",
+        "es": "Dump de objetos: traducciones completadas; CI reforzada para publicacion confiable en npm (firma provenance en el lanzamiento)",
+        "pl": "Dump obiektow: uzupelniono tlumaczenia; CI wzmocnione dla zaufanego publikowania na npm (podpis provenance przy wydaniu)",
+        "uk": "Дамп об'єктів: переклади завершено; CI посилено для довіреної публікації на npm (підпис provenance при релізі)",
+        "zh-cn": "对象转储：翻译已补全；CI 已加强以支持 npm 可信发布（发布时带 provenance 签名）"
       },
       "0.1.37": {
         "en": "Review fixes: English log messages and i18n object names (en/de), common.custom check before deleting stale recording objects, code-level updateInterval bounds (5-1440 min), removed invalid role on channel objects",
