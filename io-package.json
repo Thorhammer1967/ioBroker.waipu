@@ -4,8 +4,17 @@
     "version": "0.1.38",
     "news": {
       "0.1.38": {
-        "en": "Object dump i18n completed; CI hardened for trusted publishing",
-        "de": "Objekt-Dump i18n vervollstaendigt; CI gehaertet fuer Trusted Publishing"
+        "en": "Object dump i18n completed; CI hardened for trusted publishing (provenance sign on release)",
+        "de": "Objekt-Dump i18n vervollstaendigt; CI gehaertet fuer Trusted Publishing (Provenance-Signatur bei Release)",
+        "ru": "Object dump i18n completed; CI hardened for trusted publishing (provenance sign on release)",
+        "pt": "Object dump i18n completed; CI hardened for trusted publishing (provenance sign on release)",
+        "nl": "Object dump i18n completed; CI hardened for trusted publishing (provenance sign on release)",
+        "fr": "Object dump i18n completed; CI hardened for trusted publishing (provenance sign on release)",
+        "it": "Object dump i18n completed; CI hardened for trusted publishing (provenance sign on release)",
+        "es": "Object dump i18n completed; CI hardened for trusted publishing (provenance sign on release)",
+        "pl": "Object dump i18n completed; CI hardened for trusted publishing (provenance sign on release)",
+        "uk": "Object dump i18n completed; CI hardened for trusted publishing (provenance sign on release)",
+        "zh-cn": "Object dump i18n completed; CI hardened for trusted publishing (provenance sign on release)"
       },
       "0.1.37": {
         "en": "Review fixes: English log messages and i18n object names (en/de), common.custom check before deleting stale recording objects, code-level updateInterval bounds (5-1440 min), removed invalid role on channel objects",

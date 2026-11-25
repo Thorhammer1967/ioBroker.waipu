@@ -65,6 +65,10 @@ The API knowledge is based on the open-source work on **ha-waipu** (Home Assista
 - No liability for damage or outages
 
 ## Changelog
+### 0.1.38
+- Object dump i18n completed (all recommended languages)
+- CI: skip re-publish on existing npm version; id-token:write for npm trusted publishing (provenance)
+
 
 ### 0.1.37
 - Review fixes for official latest repo: English log messages, i18n object names (en/de), `common.custom` check before deleting stale recording objects, code-level `updateInterval` bounds (5–1440 min), removed invalid `role` on channel objects

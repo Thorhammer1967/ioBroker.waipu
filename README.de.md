@@ -65,6 +65,10 @@ Die Schnittstellen-Kenntnisse basieren auf der Open-Source-Arbeit an **ha-waipu*
 - Keine Haftung für Schäden oder Ausfälle
 
 ## Changelog
+### 0.1.38
+- Objekt-Dump i18n vervollstaendigt (alle empfohlenen Sprachen)
+- CI: Re-Publish bei vorhandener npm-Version ueberspringen; id-token:write fuer npm Trusted Publishing (Provenance)
+
 
 ### 0.1.37
 - Review-Fixes fürs offizielle Latest-Repo: englische Log-Meldungen, i18n-Objektnamen (en/de), `common.custom`-Prüfung vor dem Löschen veralteter Aufnahmen, `updateInterval`-Grenzen im Code (5–1440 Min.), ungültige `role` an Kanal-Objekten entfernt
